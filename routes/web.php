@@ -12,21 +12,29 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::group(
+
+Route::group (
     [
         'prefix' => LaravelLocalization::setLocale(),
         'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
-    ], function(){
-Route::get('/', function () {
-    return view('layouts.site');
-})->name('homepage');
-Route::get('/Register', function () {
-    return view('layouts.register');
-})->name('Register');
-Route::get('/Perfume', function () {
-    return view('layouts.perfume');
-})->name('Perfume');
-Auth::routes();
+    ], function(){ 
 
-Route::get('/home', 'HomeController@index')->name('home');
+	Route::get('/', function () {
+        return view('layouts.site');
+    })->name('homepage');
+
+    Route::get('/Register', function () {
+        return view('layouts.register');
+    })->name('Register');
+
+    Route::get('/Perfume', function () {
+        return view('layouts.perfume');
+    })->name('Perfume');
+
+    Route::get('/package', function () {
+        return view('layouts.package');
+    })->name('package');
+
+    Auth::routes();
+    Route::get('/home', 'HomeController@index')->name('home');
 });

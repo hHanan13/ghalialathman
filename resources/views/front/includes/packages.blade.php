@@ -15,7 +15,7 @@
 								</div>
 							</div>
 							<div class="bbb_viewed_slider_container">
-								<div class="owl-carousel owl-theme bbb_viewed_slider1">
+								<div class="owl-carousel owl-theme bbb_viewed_slider3">
 									<div class="owl-item">
 										<div class="product-incfhny mt-4">
 											<div class="product-grid3 transmitv">

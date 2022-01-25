@@ -11,13 +11,10 @@
 							<a><img src="{{asset('assets/front/images/g2260.png')}}" class="img-fluid side4" alt="" /></a>
 
 								<h3 class="bbb_viewed_title">Recommendations</h3>
-								<div class="bbb_viewed_nav_container">
-									<div class="bbb_viewed_nav bbb_viewed_prev"><img class="img-fluid" src="{{asset('assets/front/images/prev.png')}}"></div>
-									<div class="bbb_viewed_nav bbb_viewed_next"><i class="fas fa-chevron-right"></i></div>
-								</div>
+								
 							</div>
 							<div class="bbb_viewed_slider_container">
-								<div class="owl-carousel owl-theme bbb_viewed_slider">
+								<div class="owl-carousel owl-theme bbb_viewed_slider4">
 									<div class="owl-item">
 										<div class="product-incfhny mt-4">
 											<div class="product-grid2 transmitv">

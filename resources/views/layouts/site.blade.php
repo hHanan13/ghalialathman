@@ -382,7 +382,7 @@
 				<div class="right-1">
 						<ul class="social-footerhny mt-lg-5 mt-4">
 
-								<li><a class="youtube" href="#"><span class="" aria-hidden="true"></span></a>
+								<li><a class="youtube" href="#"><img src="{{asset('assets/front/images/Group 1111.png')}}" class="img-fluid" alt="" /></a>
 								</li>
 								<li><a class="facebook" href="#"><img src="{{asset('assets/front/images/Group1113.png')}}" class="img-fluid" alt="" /></a>
 								</li>
@@ -477,51 +477,130 @@
 		}
 		});
   </script>
-   <script>
-	  $(document).ready(function()
-		{
-		if($('.bbb_viewed_slider1').length)
-		{
-		var viewedSlider = $('.bbb_viewed_slider1');
+  <!-- french_slider -->
+<script>
+	$(document).ready(function()
+  {
+  if($('.bbb_viewed_slider1').length)
+  {
+  var viewedSlider1 = $('.bbb_viewed_slider1');
 
-		viewedSlider.owlCarousel(
-		{
-		loop:true,
-		margin:30,
-		autoplay:true,
-		autoplayTimeout:6000,
-		nav:false,
-		dots:false,
-		responsive:
-		{
-		0:{items:1},
-		575:{items:2},
-		768:{items:2},
-		991:{items:2},
-		1199:{items:2}
-		}
-		});
+  viewedSlider1.owlCarousel(
+  {
+  loop:true,
+  margin:30,
+  autoplay:true,
+  autoplayTimeout:6000,
+  nav:true,
+  dots:false,
+  navText : ["<i class='icofont-scroll-left'></i>","<i class='icofont-scroll-right'></i>"],
+  responsive:
+  {
+  0:{items:1},
+  575:{items:2},
+  768:{items:3},
+  991:{items:4},
+  1199:{items:4}
+  }
+  });
+  
+  }
+  });
 
-		if($('.bbb_viewed_prev1').length)
-		{
-		var prev = $('.bbb_viewed_prev1');
-		prev.on('click', function()
-		{
-		viewedSlider.trigger('prev.owl.carousel1');
-		});
-		}
+</script>
+<!-- niche_slider -->
+<script>
+	$(document).ready(function()
+  {
+  if($('.bbb_viewed_slider2').length)
+  {
+  var viewedSlider2 = $('.bbb_viewed_slider2');
 
-		if($('.bbb_viewed_next1').length)
-		{
-		var next = $('.bbb_viewed_next1');
-		next.on('click', function()
-		{
-		viewedSlider.trigger('next.owl.carousel1');
-		});
-		}
-		}
-		});
-  </script>
+  viewedSlider2.owlCarousel(
+  {
+  loop:true,
+  margin:30,
+  autoplay:true,
+  autoplayTimeout:6000,
+  nav:true,
+  dots:false,
+  navText : ["<i class='icofont-scroll-left'></i>","<i class='icofont-scroll-right'></i>"],
+  responsive:
+  {
+  0:{items:1},
+  575:{items:2},
+  768:{items:3},
+  991:{items:4},
+  1199:{items:4}
+  }
+  });
+  
+  }
+  });
+
+</script>
+
+<!-- packages_slider -->
+<script>
+	$(document).ready(function()
+  {
+  if($('.bbb_viewed_slider3').length)
+  {
+  var viewedSlider3 = $('.bbb_viewed_slider3');
+
+  viewedSlider3.owlCarousel(
+  {
+  loop:true,
+  margin:30,
+  autoplay:true,
+  autoplayTimeout:6000,
+  nav:false,
+  dots:false,
+  navText : ["<i class='icofont-scroll-left'></i>","<i class='icofont-scroll-right'></i>"],
+  responsive:
+  {
+  0:{items:1},
+  575:{items:2},
+  768:{items:2},
+  991:{items:2},
+  1199:{items:2}
+  }
+  });
+  }
+  });
+
+</script>
+
+<!-- recommendation -->
+<script>
+	$(document).ready(function()
+  {
+  if($('.bbb_viewed_slider4').length)
+  {
+  var viewedSlider4 = $('.bbb_viewed_slider4');
+
+  viewedSlider4.owlCarousel(
+  {
+  loop:true,
+  margin:30,
+  autoplay:true,
+  autoplayTimeout:6000,
+  nav:true,
+  dots:false,
+  navText : ["<i class='icofont-scroll-left'></i>","<i class='icofont-scroll-right'></i>"],
+  responsive:
+  {
+  0:{items:1},
+  575:{items:2},
+  768:{items:3},
+  991:{items:4},
+  1199:{items:4}
+  }
+  });
+  }
+  });
+
+</script>
  <!-- cart-js -->
  <script src="{{asset('assets/front/js/minicart.js')}}"></script>
  <script>

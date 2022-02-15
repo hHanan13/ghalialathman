@@ -3848,6 +3848,10 @@ a.read-more-btn2.btn:hover {
     left: 82%;
     bottom: 0px;
 }
+.navbar-brand2{
+  position: relative;
+    bottom: 0px;
+}
 .w3l-banner-slider-main a.navbar-brand {
   color: #fff;
   font-size: 30px;
@@ -3855,7 +3859,13 @@ a.read-more-btn2.btn:hover {
   font-weight: 900;
   text-transform: uppercase;
 }
-
+.w3l-banner-slider-main a.navbar-brand2 {
+  color: #fff;
+  font-size: 30px;
+  padding: 0;
+  font-weight: 900;
+  text-transform: uppercase;
+}
 .w3l-banner-slider-main a.navbar-brand:hover {
   color: #fff;
 }
@@ -3883,7 +3893,7 @@ a.read-more-btn2.btn:hover {
 }
 
 .w3l-banner-slider-main .navbar-light .navbar-nav .nav-link {
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
@@ -4255,7 +4265,7 @@ a.read-more-btn2.btn:hover {
   top: 42%;
   bottom: 0;
   z-index: 1;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   color: #fff;
@@ -7301,7 +7311,15 @@ ul.social-footerhny li {
   margin-right: 16px;
     padding-top: 15px;
 }
-
+.double{
+  position: relative;
+    right: 54%;
+    top: 73px;
+}
+.logo_layer{
+  left: 82%;
+    bottom: 30%;
+}
 ul.social-footerhny li a {
   color: #fff;
   display: inline-block;
@@ -7315,8 +7333,8 @@ ul.social-footerhny li a {
   -o-border-radius: 50%;
   -ms-border-radius: 50%;
   position: relative;
-    top: 150px;
-    left: 70%;
+    top: 25px;
+    left: 75%;
 }
 ul.social-footerhny li a.youtube{
 }
@@ -12783,9 +12801,21 @@ input[type="button"].btn-block {
   line-height: inherit;
   white-space: nowrap;
 }
-
+.navbar-brand2 {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
 .navbar-brand:hover,
 .navbar-brand:focus {
+  text-decoration: none;
+}
+.navbar-brand2:hover,
+.navbar-brand2:focus {
   text-decoration: none;
 }
 
@@ -19172,14 +19202,19 @@ a.text-dark:focus {
 }
 
 #sidebar-wrapper {
-    z-index: 1000;
+  background-image: url(images/Group107.png) !important;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9999;
     left: 220px;
     width: 0;
     height: 100%;
     margin-left: -220px;
     overflow-y: auto;
     overflow-x: hidden;
-    background: #1a1a1a;
+    background: rgba(127, 151, 165, 0.9);
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -19191,7 +19226,7 @@ a.text-dark:focus {
 }
 
 #wrapper.toggled #sidebar-wrapper {
-    width: 220px;
+    width: 100%;
 }
 
 #page-content-wrapper {
@@ -19213,8 +19248,9 @@ a.text-dark:focus {
 
 .sidebar-nav {
     position: absolute;
-    top: 0;
-    width: 220px;
+    top: 25%;
+    left: 22%;
+    width: 250px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -19235,7 +19271,6 @@ a.text-dark:focus {
     z-index: -1;
     height: 100%;
     width: 3px;
-    background-color: #1c1c1c;
     -webkit-transition: width .2s ease-in;
       -moz-transition:  width .2s ease-in;
        -ms-transition:  width .2s ease-in;
@@ -19260,9 +19295,9 @@ a.text-dark:focus {
 
 .sidebar-nav li a {
     display: block;
-    color: #ddd;
+    color: #F3F5F6;
     text-decoration: none;
-    padding: 10px 15px 10px 30px;    
+    padding: 20px 15px 10px 30px;    
 }
 
 .sidebar-nav li a:hover,
@@ -19275,13 +19310,7 @@ a.text-dark:focus {
     text-decoration: none;
     background-color: transparent;
 }
-.sidebar-header {
-    text-align: center;
-    font-size: 20px;
-    position: relative;
-    width: 100%;
-    display: inline-block;
-}
+
 .sidebar-brand {
     height: 65px;
     position: relative;
@@ -19317,61 +19346,13 @@ a.text-dark:focus {
     top: 0;
 }
 /*Fontawesome icons*/
-.nav.sidebar-nav li a::before {
-    font-family: fontawesome;
-    content: "\f12e";
-    vertical-align: baseline;
-    display: inline-block;
-    padding-right: 5px;
-}
-a[href*="#home"]::before {
-  content: "\f015" !important;
-}
-a[href*="#about"]::before {
-  content: "\f129" !important;
-}
-a[href*="#events"]::before {
-  content: "\f073" !important;
-}
-a[href*="#events"]::before {
-  content: "\f073" !important;
-}
-a[href*="#team"]::before {
-  content: "\f0c0" !important;
-}
-a[href*="#works"]::before {
-  content: "\f0b1" !important;
-}
-a[href*="#pictures"]::before {
-  content: "\f03e" !important;
-}
-a[href*="#videos"]::before {
-  content: "\f03d" !important;
-}
-a[href*="#books"]::before {
-  content: "\f02d" !important;
-}
-a[href*="#art"]::before {
-  content: "\f1fc" !important;
-}
-a[href*="#awards"]::before {
-  content: "\f02e" !important;
-}
-a[href*="#services"]::before {
-  content: "\f013" !important;
-}
-a[href*="#contact"]::before {
-  content: "\f086" !important;
-}
-a[href*="#followme"]::before {
-  content: "\f099" !important;
-  color: #0084b4;
-}
+
 /*-------------------------------*/
 /*       Hamburger-Cross         */
 /*-------------------------------*/
 
 .hamburger {
+  
   position: fixed;
   right: 35px;
   z-index: 999;
@@ -19379,13 +19360,30 @@ a[href*="#followme"]::before {
   width: 32px;
   height: 32px;
   margin-left: 15px;
-  background: transparent;
   border: none;
 }
 .hamburger:hover,
 .hamburger:focus,
 .hamburger:active {
   outline: none;
+}
+.hamburger.is-closed{
+  background-image: url("images/menu.png") !important;
+  background-color: transparent; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hamburger.is-open{
+  background-image: url("images/1.png") !important;
+  background-color: transparent; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+    left: 49%;
+    top: 100px;
+    z-index: 99999;
 }
 .hamburger.is-closed:before {
   content: '';

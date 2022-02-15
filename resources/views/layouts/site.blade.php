@@ -274,21 +274,20 @@
 					<div class="overlay"></div>
 					
 							<button type="button" class="hamburger animated fadeInLeft is-closed col-lg-3" data-toggle="offcanvas">
-									<span class="hamb-top"></span>
-									<span class="hamb-middle"></span>
-									<span class="hamb-bottom"></span>
+									
 							</button>
 				               <!-- Sidebar -->
 							<nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+                            <a class="navbar-brand logo_layer" href="#index.html">
+								<img src="{{asset('assets/front/images/logo-4.png')}}" alt="Your logo" title="Your logo" style="height:150px;" />
+							</a> 
 									<ul class="nav sidebar-nav">
-									<div class="sidebar-header">
-									<div class="sidebar-brand">
-										<a href="#">Brand</a></div></div>
-									<li><a href="#home">Home</a></li>
-									<li><a href="#about">About</a></li>
-									<li><a href="#events">Events</a></li>
-									<li><a href="#team">Team</a></li>
-									<li class="dropdown">
+									
+									<li><a href="#home">Homepage</a></li>
+									<li><a href="#about">Shop</a></li>
+									<li><a href="#events">Perfume manufacturing</a></li>
+									<li><a href="{{ route('MerchantServices') }}">Merchant Services</a></li>
+									<!-- <li class="dropdown">
 									<a href="#works" class="dropdown-toggle"  data-toggle="dropdown">Works <span class="caret"></span></a>
 									<ul class="dropdown-menu animate__animated animate__fadeInLeft" role="menu">
 									<div class="dropdown-header">Dropdown heading</div>
@@ -298,14 +297,12 @@
 									<li><a href="#art">Art</a></li>
 									<li><a href="#awards">Awards</a></li>
 									</ul>
-									</li>
-									<li><a href="#services">Services</a></li>
-									<li><a href="#contact">Contact</a></li>
-									<li><a href="#followme">Follow me</a></li>
+									</li> -->
+									<li><a href="#services">Bank Accounts</a></li>
+									<li><a href="#contact">checkout</a></li>
 									</ul>
 							</nav>
 					
-
 				</div>
 			</nav>
 			<a class="navbar-brand" href="#index.html">
@@ -381,6 +378,7 @@
 			<div class="right-banner">
 				<div class="right-1">
 						<ul class="social-footerhny mt-lg-5 mt-4">
+                        <a class="double" href="#"><img src="{{asset('assets/front/images/Group13.png')}}" class="img-fluid" alt="" /></a>
 
 								<li><a class="youtube" href="#"><img src="{{asset('assets/front/images/Group 1111.png')}}" class="img-fluid" alt="" /></a>
 								</li>
@@ -646,6 +644,7 @@
     })
   });
 </script>
+<!-- menu -->
 <script>
 	$(document).ready(function () {
   var trigger = $('.hamburger'),

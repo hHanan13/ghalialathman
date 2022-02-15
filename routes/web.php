@@ -35,6 +35,10 @@ Route::group (
         return view('layouts.package');
     })->name('package');
 
+    Route::get('/MerchantServices', function () {
+        return view('layouts.MerchantServices');
+    })->name('MerchantServices'); 
+
     Auth::routes();
     Route::get('/home', 'HomeController@index')->name('home');
 });

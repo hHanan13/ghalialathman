@@ -9,15 +9,15 @@
   <title>SpryStore E-commerce Category Bootstrap Responsive Website Template | Home :: W3layouts</title>
   <!-- Template CSS -->
   <link rel="stylesheet" href="{{asset('assets/front/css/style-starter.css')}}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <link rel="stylesheet" href="{{asset('assets/front/css/owl.carousel.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/front/css/owl.theme.default.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/front/css/fontawesome.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/front/css/all.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/front/css/animate.min.css')}}">
   <!-- Template CSS -->
   <link href="//fonts.googleapis.com/css?family=Oswald:300,400,500,600&display=swap" rel="stylesheet">
   <link href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900&display=swap" rel="stylesheet">
-  <!-- Template CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+ 
 </head>
 <body>
 <!--w3l-banner-slider-main-->
@@ -218,17 +218,15 @@
     });
 });
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="{{asset('assets/front/js/owlcarousel2.2.1.js')}}"></script>
+<script src="{{asset('assets/front/js/wow.min.js')}}"></script>
+<script src="{{asset('assets/front/js/wow.js')}}"></script>
+<script src="{{asset('assets/front/js/all.min.js')}}"></script>
+<script src="{{asset('assets/front/js/fontawesome.min.js')}}"></script>
+<script src="{{asset('assets/front/js/popper1.16.min.js')}}"></script>
 <script>
               new WOW().init();
               </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/fontawesome.min.js" integrity="sha512-ywaT8M9b+VnJ+jNG14UgRaKg+gf8yVBisU2ce+YJrlWwZa9BaZAE5GK5Yd7CBcP6UXoAnziRQl40/u/qwVZi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- disable body scroll which navbar is in active -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
 <script src="{{asset('assets/front/js/bootstrap.min.js')}}"></script>
 <script>

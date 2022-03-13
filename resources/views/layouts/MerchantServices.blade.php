@@ -28,22 +28,12 @@
 				<div class="top-right-strip row">
 					<!--/left-->
 					<div class="top-hny-left-content col-lg-6 pl-lg-0">
-						<h6>Upto 30% off on All styles , <a href="#" target="_blank"> Click here for <span
-									class="fa fa-hand-o-right hand-icon" aria-hidden="true"></span> <span
-									class="hignlaite">More details</span></a></h6>
+						<h6><i class="fas fa-envelope"></i>  example@gmail.com </h6>
+						<h6><i class="fas fa-phone-alt"></i>  123 456 7890 </h6>
 					</div>
 					<!--//left-->
 					<!--/right-->
-					<ul class="top-hnt-right-content col-lg-6">
-
-						<li class="transmitvcart galssescart2 cart cart box_1">
-							<form action="#" method="post" class="last">
-								<input type="hidden" name="cmd" value="_cart">
-								<input type="hidden" name="display" value="1">
-								
-							</form>
-						</li>
-					</ul>
+					
 					<!--//right-->
 					<div class="overlay-login text-left">
 						<button type="button" class="overlay-close1">
@@ -90,16 +80,45 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container-fluid serarc-fluid">
 					<a class="navbar-brand2" href="index.html">
-						Spry<span class="lohny">S</span>tore</a>
+				    	<img src="{{asset('assets/front/images/logoblack.png')}}" alt="Your logo" title="Your logo" style="height:120px;" />
+			    	</a>
 					<!-- if logo is image enable this   
 							<a class="navbar-brand" href="#index.html">
 								<img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
 							</a> -->
+					
+					<!--//search-right-->
+					<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon fa fa-bars"> </span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+							<img src="{{asset('assets/front/images/icon/Group 3579.png')}}" class="img-fluid" alt="" />
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+							<img src="{{asset('assets/front/images/icon/Group 3580.png')}}" class="img-fluid" alt="" />
+								<a class="nav-link" href="about.html">profile</a>
+							</li>
+							<li class="nav-item">
+							<img src="{{asset('assets/front/images/icon/Group 3583.png')}}" class="img-fluid" alt="" />
+								<a class="nav-link" href="about.html">Favorite</a>
+							  </li>
+
+							<li class="nav-item">
+							<img src="{{asset('assets/front/images/icon/Group 3584.png')}}" class="img-fluid" alt="" />
+								<a class="nav-link" href="contact.html">cart</a>
+							</li>
+						</ul>
+
+					</div>
 					<!--/search-right-->
 					<div class="search-right">
 
-						<a href="#search" title="search"><span class="fa fa-search mr-2" aria-hidden="true"></span>
-							<span class="search-text">Search here</span></a>
+						<a href="#search" title="search"><i class="fas fa-search"></i></a>
 						<!-- search popup -->
 						<div id="search" class="pop-overlay">
 							<div class="popup">
@@ -115,55 +134,314 @@
 						</div>
 						<!-- /search popup -->
 					</div>
-					<!--//search-right-->
-					<button class="navbar-toggler" type="button" data-toggle="collapse"
-						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-						aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon fa fa-bars"> </span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item active">
-								<a class="nav-link" href="index.html">Home</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="about.html">About</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="about.html">What We Offer</a>
-							  </li>
-
-
-							<li class="nav-item">
-								<a class="nav-link" href="contact.html">Contact</a>
-							</li>
-						</ul>
-
-					</div>
 				</div>
 			</nav>
 			<!--//nav-->
 		</header>
-		<div class="bannerhny-content">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-7 col-md-6">
-						<div class="slider_text">
-							<h5 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInLeft;">4536+ Jobs listed</h5>
-							<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInLeft;">Find your Dream Job</h3>
-							<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;">We provide online instant cash loans with quick approval that suit your term length</p>
-							<div class="sldier_btn wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeft;">
-							<a href="#" class="boxed-btn3">Upload your Resume</a>
+		</br></br>
+		<div class="bannerhny-content1">
+			<div class="single_slider  d-flex align-items-center slider_bg_1">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-5 col-md-6">
+							<div class="slider_text">
+									<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInLeft;">You can start your perfume business at the lowest costs</h3>
+									<div class="line wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;"></div>
+									<div class="space"></div>
+									<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeft;">We start with you from supplying perfumes to preparing your account as a merchant on the site and linking your account to inventory management systems and shipping companies in a timely manner. We also provide you with training on operations and business and support you with services &nbsp;&nbsp;<div class="line1"></div>&nbsp;&nbsp;<u>Register</u></p>
+											</br>
+											</br>
+									<div class=="play">
+										<a class="" href="index.html">
+											<img src="{{asset('assets/front/images/Group 3581.png')}}" class="img-fluid" alt="" title="" style="" />
+										</a>
+									
+									    <div class="box wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeft;"><h4>demonstration video</h4></div>
+									</div>
+									
 							</div>
 						</div>
+						<div class="col-lg-1 col-md-6"></div>
+						<div class="col-lg-6 col-md-6">
+						<img src="{{asset('assets/front/images/Group 453.png')}}" class="img-fluid wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;" alt="" />
+						
+						</div>
+						<div class="icon_links col-md-2 offset-md-8">
+						            <ul class="icons mt-lg-5 mt-4">
+
+										<li><a class="youtube" href="#"><i class="fab fa-linkedin-in"></i></a>
+										</li>
+										<li><a class="facebook" href="#"><i class="fab fa-twitter"></i></a>
+										</li>
+										<li><a class="google" href="#"><i class="fab fa-facebook-f"></i></a>
+										</li>								
+								
+					            	</ul>
+						</div>
+						<div class="type1"></div>
 					</div>
 				</div>
 			</div>
 		</div>
 
 </section>
-<!-- //w3l-banner-slider-main -->
-     
+<!-- first section -->
+<section>
+                <div class="container">
+					<div class="row align-items-center">
+					<div class="col-lg-6 col-md-6">
+						<img src="{{asset('assets/front/images/Group 471.png')}}" class="img-fluid wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;" alt="" />
+						
+						</div>
+						
+						<div class="col-lg-1 col-md-6"></div>
+						<div class="col-lg-5 col-md-6">
+							<div class="slider_text1">
+									<h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">Register for a merchant service</h3>
+									<div class="line wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;"></div>
+									<div class="space"></div>
+									<p class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;">Open an online merchant account and start selling to any customer and anywhere in the world.</p>
+									<div class="type"></div>
+							</div>
+						</div>
+					
+						
+					</div>
+				</div>
+</section>
+<!-- second section -->
+<section class="third">
+                <div class="container">
+					<div class="row align-items-center">
+					
+					<div class="col-lg-5 col-md-6">
+							<div class="slider_text2">
+									<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInLeft;">perfume supply</h3>
+									<div class="line wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;"></div>
+									<div class="space"></div>
+									<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeft;">After activating your merchant account, we start supplying perfumes and entering them into your account. We support the account with any new perfumes without any new payments.</p>
+									<div class="type"></div>
+							</div>
+						</div>
+						<div class="col-lg-1 col-md-6"></div>
+						<div class="col-lg-6 col-md-6">
+						<img src="{{asset('assets/front/images/Group 543.png')}}" class="img-fluid wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;" alt="" />
+						
+						</div>
+					
+						
+					</div>
+				</div>
+</section>
+<!-- third section -->
+<section class="forth">
+                <div class="container">
+					<div class="row align-items-center">
+					<div class="col-lg-6 col-md-6">
+						<img src="{{asset('assets/front/images/Group 1786.png')}}" class="img-fluid wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;" alt="" />
+						
+						</div>
+						
+						<div class="col-lg-1 col-md-6"></div>
+						<div class="col-lg-5 col-md-6">
+							<div class="slider_text3">
+									<h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">Inventory</h3>
+									<div class="line wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;"></div>
+									<div class="space"></div>
+									<p class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;">We provide you with storage space in Riyadh, Jeddah and Dammam. An account as a merchant is linked to inventory management systems automatically, which supports the management of inventory movement, distribution and receipt movement upon supply for each new and upon delivery.</p>
+									<div class="type"></div>
+							</div>
+						</div>
+					
+						
+					</div>
+				</div>
+</section>
+<!-- forth section -->
+<section class="fifth">
+                <div class="container">
+					<div class="row align-items-center">
+					
+					<div class="col-lg-5 col-md-6">
+							<div class="slider_text4">
+									<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInLeft;">cargo management system</h3>
+									<div class="line wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;"></div>
+									<div class="space"></div>
+									<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeft;">Your account is linked with the shipment management systems through multiple shipping companies on the same policy for the store and without additional costs.</p>
+									<div class="type"></div>
+							</div>
+						</div>
+						<div class="col-lg-1 col-md-6"></div>
+						<div class="col-lg-6 col-md-6">
+						<img src="{{asset('assets/front/images/Group 1900.png')}}" class="img-fluid wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;" alt="" />
+						
+						</div>
+					
+						
+					</div>
+				</div>
+</section>
+<!-- fifth section -->
+<section class="sixth">
+                <div class="container">
+					<div class="row align-items-center">
+              		<div class="col-lg-6 col-md-6">
+						<img src="{{asset('assets/front/images/Group 2369.png')}}" class="img-fluid wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;" alt="" />
+						
+						</div>
+						
+						<div class="col-lg-1 col-md-6"></div>
+						<div class="col-lg-5 col-md-6">
+							<div class="slider_text5">
+									<h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">Multiple payment systems</h3>
+									<div class="line wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;"></div>
+									<div class="space"></div>
+									<p class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;">Your account is linked to many payment systems that support you in increasing sales more easily.</p>
+									<div class="type"></div>
+							</div>
+						</div>
+					
+						
+					</div>
+				</div>
+</section>
+<!-- sixth section -->
+<section class="seventh">
+                <div class="container">
+					<div class="row align-items-center">
+					
+					<div class="col-lg-5 col-md-6">
+							<div class="slider_text6">
+									<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInLeft;">Marketing</h3>
+									<div class="line wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;"></div>
+									<div class="space"></div>
+									<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeft;">We carry out promotional campaigns through social media platforms, celebrities or exhibitions to support the brand, which supports you in selling and winning customers.</p>
+									<div class="type"></div>
+							</div>
+						</div>
+						<div class="col-lg-1 col-md-6"></div>
+						<div class="col-lg-6 col-md-6">
+						<img src="{{asset('assets/front/images/Group 3576.png')}}" class="img-fluid wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;" alt="" />
+						
+						</div>
+					
+						
+					</div>
+				</div>
+</section>
+<!-- seventh section -->
+<section class="eight">
+                <div class="container">
+					<div class="row align-items-center">
+              		<div class="col-lg-6 col-md-6">
+						<img src="{{asset('assets/front/images/Group 2247.png')}}" class="img-fluid wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;" alt="" />
+						
+						</div>
+						
+						<div class="col-lg-1 col-md-6"></div>
+						<div class="col-lg-5 col-md-6">
+							<div class="slider_text7">
+									<h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">Ongoing training and support</h3>
+									<div class="line wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;"></div>
+									<div class="space"></div>
+									<p class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;">We provide training and continuous support to support you in selling and managing your account as a merchant.</p>
+									<div class="type"></div>
+							</div>
+						</div>
+					
+						
+					</div>
+				</div>
+</section>
+<!-- eight section -->
+<section class="nine">
+                <div class="container">
+					<div class="row align-items-center">
+					
+					<div class="col-lg-5 col-md-6">
+							<div class="slider_text8">
+									<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInLeft;">Advertising and design management</h3>
+									<div class="line wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;"></div>
+									<div class="space"></div>
+									<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeft;">We provide paid advertising management services for free to any merchant on the site, and we also provide him with the necessary designs for the campaign.</p>
+									<div class="type"></div>
+							</div>
+						</div>
+						<div class="col-lg-1 col-md-6"></div>
+						<div class="col-lg-6 col-md-6">
+						<img src="{{asset('assets/front/images/Group 2319.png')}}" class="img-fluid wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;" alt="" />
+						
+						</div>
+					
+						
+					</div>
+				</div>
+</section>
+<!-- nine section -->
+<section class="ten">
+                <div class="container">
+					<div class="row align-items-center">
+              		<div class="col-lg-6 col-md-6">
+						<img src="{{asset('assets/front/images/Group 2371.png')}}" class="img-fluid wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;" alt="" />
+						
+						</div>
+						
+						<div class="col-lg-1 col-md-6"></div>
+						<div class="col-lg-5 col-md-6">
+							<div class="slider_text9">
+									<h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">perfume design</h3>
+									<div class="line wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;"></div>
+									<div class="space"></div>
+									<p class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;">The possibility of producing special perfumes in the name of the store on demand in advanced stages.</p>
+									<div class="type"></div>
+							</div>
+						</div>
+					
+						
+					</div>
+				</div>
+</section>
+<!-- ten section -->
+
+<section class="form_register">
+	<div class="wrapper">
+		<div class="container">
+			<article class="part card-details">
+				<h1>
+				Merchant Registration
+				</h1>
+				<form action="" if="cc-form" autocomplete="off">
+					<div class="group card-number">
+						<label for="first">Merchant Registration</label>
+						<input type="text" id="first" class="cc-num" type="text" maxlength="4" placeholder="&#9679;&#9679;&#9679;&#9679;">
+						<input type="text" id="second" class="cc-num" type="text" maxlength="4" placeholder="&#9679;&#9679;&#9679;&#9679;">
+						<input type="text" id="third" class="cc-num" type="text" maxlength="4" placeholder="&#9679;&#9679;&#9679;&#9679;">
+						<input type="text" id="fourth" class="cc-num" type="text" maxlength="4" placeholder="&#9679;&#9679;&#9679;&#9679;">
+					</div>
+					<div class="group card-name">
+						<label for="name">Name On Card</label>
+						<input type="text" id="name" class="" type="text" maxlength="20" placeholder="Name Surname">
+					</div>
+					<div class="group card-expiry">
+						<div class="input-item expiry">
+							<label for="expiry">Expiry Date</label>
+							<input type="text" class="month" id="expiry" placeholder="02">
+							<input type="text" class="year" id="" placeholder="2017">
+						</div>
+						<div class="input-item csv">
+							<label for="csv">CSV No.</label><a href="#what">?</a>
+							<input type="text" class="csv">
+						</div>
+					</div>
+					<div class="grup submit-group">
+						<span class="arrow"></span>
+						<input type="submit" class="submit" value="Continue to payment">
+					</div>
+				</form>
+			</article>
+		</div>
+		</div>
+</section>
       @include('front.includes.footer')
 	  <script src="{{asset('assets/front/js/jquery-2.1.4.min.js')}}"></script>
 <script src="{{asset('assets/front/js/jquery-3.3.1.min.js')}}"></script>

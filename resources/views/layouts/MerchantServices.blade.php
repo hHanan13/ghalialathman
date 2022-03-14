@@ -9,15 +9,17 @@
   <title>SpryStore E-commerce Category Bootstrap Responsive Website Template | Home :: W3layouts</title>
   <!-- Template CSS -->
   <link rel="stylesheet" href="{{asset('assets/front/css/style-starter.css')}}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-  <!-- Template CSS -->
+  <link rel="stylesheet" href="{{asset('assets/front/css/owl.carousel.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/front/css/owl.theme.default.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/front/css/fontawesome.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/front/css/all.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/front/css/animate.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/front/css/intlTelInput.css')}}">
+
+
   <link href="//fonts.googleapis.com/css?family=Oswald:300,400,500,600&display=swap" rel="stylesheet">
   <link href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900&display=swap" rel="stylesheet">
-  <!-- Template CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 <body>
 <!--w3l-banner-slider-main-->
@@ -410,38 +412,64 @@
 				<h1>
 				Merchant Registration
 				</h1>
-				<form action="" if="cc-form" autocomplete="off">
-					<div class="group card-number">
-						<label for="first">Merchant Registration</label>
-						<input type="text" id="first" class="cc-num" type="text" maxlength="4" placeholder="&#9679;&#9679;&#9679;&#9679;">
-						<input type="text" id="second" class="cc-num" type="text" maxlength="4" placeholder="&#9679;&#9679;&#9679;&#9679;">
-						<input type="text" id="third" class="cc-num" type="text" maxlength="4" placeholder="&#9679;&#9679;&#9679;&#9679;">
-						<input type="text" id="fourth" class="cc-num" type="text" maxlength="4" placeholder="&#9679;&#9679;&#9679;&#9679;">
-					</div>
-					<div class="group card-name">
-						<label for="name">Name On Card</label>
-						<input type="text" id="name" class="" type="text" maxlength="20" placeholder="Name Surname">
-					</div>
-					<div class="group card-expiry">
-						<div class="input-item expiry">
-							<label for="expiry">Expiry Date</label>
-							<input type="text" class="month" id="expiry" placeholder="02">
-							<input type="text" class="year" id="" placeholder="2017">
-						</div>
-						<div class="input-item csv">
-							<label for="csv">CSV No.</label><a href="#what">?</a>
-							<input type="text" class="csv">
+				<h5><span><i class="fas fa-info-circle"></i></span>The number is limited and preference is determined by region, capital and experience</h5>
+				<div class="row">
+					<div class="col-7">
+				<form action="/action_page.php">
+      
+					<div class="row">
+					<div class="col-6">
+						<input type="text" id="email" name="email" placeholder="email" spellcheck="false" data-ms-editor="true">
+						<input type="text" id="fname" name="firstname" placeholder="name" spellcheck="false" data-ms-editor="true">
+						<div class="telphone">
+						<input type="tel" class="" placeholder="Mobile number">
+						<select name="cars" id="cars">
+							<option value="volvo">+966</option>
+							<option value="saab">+965</option>
+							<option value="opel">+967</option>
+							<option value="audi">+964</option>
+						</select>
 						</div>
 					</div>
-					<div class="grup submit-group">
-						<span class="arrow"></span>
-						<input type="submit" class="submit" value="Continue to payment">
+
+					<div class="col-6">
+					
+						<input type="text" id="adr" name="address" placeholder="address" spellcheck="false" data-ms-editor="true">
+						<input type="text" id="The_required_number" name="The_required_number" placeholder="The required number" spellcheck="false" data-ms-editor="true">            
+						<input type="text" id="share_capital" name="share_capital" placeholder="share capital" spellcheck="false" data-ms-editor="true" data-toggle="tooltip" data-placement="top" title="Preference is determined by money">           
+						<input type="submit" value="Submit" class="btn">
+
 					</div>
-				</form>
+					
+					</div>
+				
+                </form>
+				</div>
+				<div class="col-5">
+					<p>
+					This text is an example of text that can be replaced in the same space.This text is an example of text that can be replaced in the same space.This text is an example of text that can be replaced in the same space.This text is an example of text that can be replaced in the same space.This text is an example of text that can be replaced in the same space.This text is an example of text that can be replaced in the same space.
+					</p>
+				<div class="icon_links col-md-2 offset-md-2">
+						            <ul class="icons mt-4">
+
+										<li><a class="" href="#"><i class="fab fa-facebook-f"></i></a>
+										</li>
+										<li><a class="" href="#"><i class="fab fa-twitter"></i></a>
+										</li>
+										<li><a class="" href="#"><i class="fas fa-envelope"></i></a>
+										</li>	
+										<li><a class="" href="#"><i class="fab fa-instagram"></i></a>
+										</li>							
+								
+					            	</ul>
+						</div>
+				</div>
+				</div>
 			</article>
 		</div>
 		</div>
 </section>
+
       @include('front.includes.footer')
 	  <script src="{{asset('assets/front/js/jquery-2.1.4.min.js')}}"></script>
 <script src="{{asset('assets/front/js/jquery-3.3.1.min.js')}}"></script>
@@ -461,8 +489,8 @@
 		});
   </script>
 <!--//login-->
-<script>
-// optional
+  <script>
+      // optional
 		$('#customerhnyCarousel').carousel({
 				interval: 5000
     });
@@ -712,17 +740,17 @@
   });  
 });
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="{{asset('assets/front/js/owlcarousel2.2.1.js')}}"></script>
+<script src="{{asset('assets/front/js/wow.min.js')}}"></script>
+<script src="{{asset('assets/front/js/wow.js')}}"></script>
+<script src="{{asset('assets/front/js/all.min.js')}}"></script>
+<script src="{{asset('assets/front/js/fontawesome.min.js')}}"></script>
+<script src="{{asset('assets/front/js/popper1.16.min.js')}}"></script>
+<script src="{{asset('assets/front/js/intlTelInput.js')}}"></script>
+
 <script>
               new WOW().init();
               </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/fontawesome.min.js" integrity="sha512-ywaT8M9b+VnJ+jNG14UgRaKg+gf8yVBisU2ce+YJrlWwZa9BaZAE5GK5Yd7CBcP6UXoAnziRQl40/u/qwVZi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- disable body scroll which navbar is in active -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
 <script src="{{asset('assets/front/js/bootstrap.min.js')}}"></script>
 <script>
@@ -730,7 +758,11 @@ $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();   
 });
 </script>
-
+<script>
+	$("input").intlTelInput({
+  utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/8.4.6/js/utils.js"
+});
+</script>
 </body>
 </html>
 

@@ -39,6 +39,10 @@ Route::group (
         return view('layouts.MerchantServices');
     })->name('MerchantServices'); 
 
+    Route::get('/manufacturing', function () {
+        return view('layouts.manufacturing');
+    })->name('manufacturing'); 
+
     Auth::routes();
     Route::get('/home', 'HomeController@index')->name('home');
 });

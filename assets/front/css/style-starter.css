@@ -3631,7 +3631,7 @@ a.read-more-btn2.btn:hover {
 
 .w3l-banner-slider-main .content {
   width: 100%;
-  margin-top: 200px;
+  margin-top: 60px;
   font-size: 20px;
   color: #333;
   text-align: center;
@@ -20868,6 +20868,7 @@ a:focus {text-decoration: none;}
 .slider_text {
   color: #343344;
   margin-top: 16%;
+  text-align: left;
 }
 .slider_text1 {
   color: #343344;
@@ -20878,6 +20879,11 @@ a:focus {text-decoration: none;}
 .slider_text h3 , .slider_text1 h3 ,.slider_text2 h3, .slider_text3 h3, .slider_text4 h3, .slider_text5 h3, .slider_text6 h3, .slider_text7 h3, .slider_text8 h3, .slider_text9 h3{
   width: 400px;
   line-height: 45px;
+}
+.slider_text10 h3, .slider_text11 h3, .slider_text12 h3, .slider_text13 h3, .slider_text14 h3, .slider_text15 h3, .slider_text16 h3, .slider_text17 h3{
+  width: 420px;
+  line-height: 45px;
+  font-weight: 400;
 }
 .slider_text .line{
   width: 200px;
@@ -20929,7 +20935,47 @@ a:focus {text-decoration: none;}
     background-color: #343344;
     height: 3px;
 }
-.slider_text p , .slider_text1 p , .slider_text2 p, .slider_text3 p, .slider_text4 p, .slider_text5 p, .slider_text6 p, .slider_text7 p, .slider_text8 p, .slider_text9 p{
+.slider_text10 .line{
+  width: 355px;
+    background-color: #FCAA14;
+    height: 3px;
+}
+.slider_text11 .line{
+  width: 355px;
+    background-color: #FCAA14;
+    height: 3px;
+}
+.slider_text12 .line{
+  width: 200px;
+    background-color: #FCAA14;
+    height: 3px;
+}
+.slider_text13 .line{
+  width: 290px;
+    background-color: #FCAA14;
+    height: 3px;
+}
+.slider_text14 .line{
+  width: 255px;
+    background-color: #FCAA14;
+    height: 3px;
+}
+.slider_text15 .line{
+  width: 310px;
+    background-color: #FCAA14;
+    height: 3px;
+}
+.slider_text16 .line{
+  width: 270px;
+    background-color: #FCAA14;
+    height: 3px;
+}
+.slider_text17 .line{
+  width: 355px;
+    background-color: #FCAA14;
+    height: 3px;
+}
+.slider_text p , .slider_text1 p , .slider_text2 p, .slider_text3 p, .slider_text4 p, .slider_text5 p, .slider_text6 p, .slider_text7 p, .slider_text8 p, .slider_text9 p, .slider_text10 p, .slider_text11 p, .slider_text12 p, .slider_text13 p, .slider_text14 p, .slider_text15 p, .slider_text16 p, .slider_text17 p{
   margin-top: 25px;
   color: #5A5966;
   display: inline;
@@ -20949,7 +20995,7 @@ a:focus {text-decoration: none;}
 .slider_text .space{
   height: 25px;
 }
-.slider_text1 .space, .slider_text2 .space, .slider_text3 .space, .slider_text4 .space, .slider_text5 .space, .slider_text6 .space, .slider_text7 .space, .slider_text8 .space, .slider_text9 .space{
+.slider_text1 .space, .slider_text2 .space, .slider_text3 .space, .slider_text4 .space, .slider_text5 .space, .slider_text6 .space, .slider_text7 .space, .slider_text8 .space, .slider_text9 .space, .slider_text10 .space, .slider_text11 .space, .slider_text12 .space, .slider_text13 .space, .slider_text14 .space,.slider_text15 .space, .slider_text16 .space, .slider_text17 .space{
   height: 15px;
 }
 .slider_text .box{
@@ -21093,7 +21139,7 @@ a:focus {text-decoration: none;}
     top: -20%;
     left: -9%;
 }
-.third, .forth, .fifth, .sixth, .seventh, .eight, .nine, .ten{
+.third, .forth, .fifth, .sixth, .seventh, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen{
   margin-top: 5%;
 }
 .play{
@@ -21181,19 +21227,33 @@ a:focus {text-decoration: none;}
   border-radius: 50%;
 }
 
- /* workaround */
-.intl-tel-input {
-  display: table-cell;
+.second_footer{
+  height: 50px;
+  width: 100%;
+  background-color: #232234;
 }
-.intl-tel-input .selected-flag {
-  z-index: 4;
+.second_footer .copy_right {
+  font-size: 15px;
+  margin: revert;
+  font-weight: 500;
+  color: #C4C4C8;
 }
-.intl-tel-input .country-list {
-  z-index: 5;
+
+/* manufacturing */
+.manufacturing_img{
+  position: relative;
+    left : 22%;
 }
-.input-group .intl-tel-input .form-control {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 0;
+.content{
+  margin-top: 10%;
+}
+.content .icon_links {
+  position: relative;
+  top: 0px;
+}
+.content .icons{
+  float: right;
+}
+.slider_text10 .remark{
+  color: #FCB32E !important;
 }

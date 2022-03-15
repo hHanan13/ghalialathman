@@ -43,6 +43,11 @@ Route::group (
         return view('layouts.manufacturing');
     })->name('manufacturing'); 
 
+    Route::get('/education', function () {
+        return view('layouts.education');
+    })->name('education'); 
+
+
     Auth::routes();
     Route::get('/home', 'HomeController@index')->name('home');
 });

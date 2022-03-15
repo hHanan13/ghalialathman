@@ -21257,3 +21257,69 @@ a:focus {text-decoration: none;}
 .slider_text10 .remark{
   color: #FCB32E !important;
 }
+.cent{
+  background-color: #F4F5F2;
+    padding: 35px;
+    text-align: left;
+}
+.aromatic_groups{
+  margin-top: 5%;
+  background: url(../images/Group143.png) no-repeat center; 
+    background-color: transparent;
+    background-size: cover;
+    align-items: center;
+    /* min-height: 100%; */
+}
+.question{
+  margin-top: 5%;
+  background-color: #F5F5F5;
+  height: 300px;
+    padding: 25px 0px;
+}
+.question1{
+  margin-top: 5%;
+  height: 300px;
+    padding: 25px 0px;
+}
+.question h3, .question1 h3{
+  font-weight: 300;
+    color: #C2B0B7 !important;
+    font-size: 1.5rem;
+}
+.small_info{
+  margin-top: 5%;
+}
+.small_info h3{
+  font-size: 1.25rem !important;
+  font-weight: 300;
+  width: auto;
+  color: #716F6F;
+}
+.small_info h3::before{
+  content: " ";
+  display: inline-block;
+  margin-right: 5px;
+  width: 3px;
+  height: 20px;
+background-color: #EBB157;
+}
+.aromatic_pyramid{
+  background-color: #E8E9E3;
+  margin-top: 5%;
+  padding: 3% 0px;
+}
+.aromatic_pyramid img{
+  margin-left: 15%;
+}
+.Manufacturing_Categories{
+  height: 440px;
+  background-color: #E8E9E3;
+  margin-top: 5%;
+  padding: 3% 0px;
+}
+.Manufacturing_Categories h3{
+  font-weight: 300;
+}
+.Manufacturing_Categories p{
+  font-size: 15px;
+}

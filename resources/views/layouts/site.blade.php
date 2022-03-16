@@ -24,7 +24,7 @@
 <section id="wrapper" class="w3l-banner-slider-main">
 	<div class="top-header-content">
 		<header class="tophny-header">
-			<div class="container-fluid" style="height: 60px;">
+			<div class="container-fluid" style="height: 30px;">
 				<div class="top-right-strip row">
 					<!--/left-->
 				
@@ -402,6 +402,7 @@
       @include('front.includes.reviews')
       @include('front.includes.newsletter')
       @include('front.includes.footer')
+
 <script src="{{asset('assets/front/js/jquery-2.1.4.min.js')}}"></script>
 <script src="{{asset('assets/front/js/jquery-3.3.1.min.js')}}"></script>
 
@@ -683,6 +684,15 @@
      </script>
 
 <script src="{{asset('assets/front/js/bootstrap.min.js')}}"></script>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
 <script>
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();   

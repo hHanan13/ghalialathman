@@ -50,80 +50,80 @@
 							</a> 
 			<!--//nav-->
 		</header>
-<div class="bannerhny-content">
+            <div class="bannerhny-content">
 
-			<!--/banner-slider-->
-	<div class="content-baner-inf">
-		<div class="container">
-		
-					<div class="single-product-details listview">
-				
-								<a href="#" class="perfume"><img src="{{asset('assets/front/images/pexels-valeria-boltneva-1961795.png')}}" class="img-fluid" alt="" style="width:500px;" /></a>
+							<!--/banner-slider-->
+					<div class="content-baner-inf">
+						<div class="container">
+						
+									<div class="single-product-details listview">
 								
-						<div class="row">
-							<div class="col-2">			 
-								<a href="#" class="rose_perfume"><img src="{{asset('assets/front/images/Group 32.png')}}" class="img-fluid" alt="" style="" /></a>
-                            </div>
-
-											<div class="col-7 product-content">
-
-												<h2 class="product-name">
-													<a href="#">Sioufi oud oil</a>
-												</h2>
-												<div class="rating-review">
-												<span>
-																		<div class="rate">
-																				<input type="radio" id="star5" name="rate" value="5" />
-																				<label for="star5" title="text">5 stars</label>
-																				<input type="radio" id="star4" name="rate" value="4" />
-																				<label for="star4" title="text">4 stars</label>
-																				<input type="radio" id="star3" name="rate" value="3" />
-																				<label for="star3" title="text">3 stars</label>
-																				<input type="radio" id="star2" name="rate" value="2" />
-																				<label for="star2" title="text">2 stars</label>
-																				<input type="radio" id="star1" name="rate" value="1" />
-																				<label for="star1" title="text">1 star</label>
-																			</div>
-																</span>
-												</div>
-												<!-- <div class="stock">
-													<a href="#">In Stock</a>
-												</div> -->
-												<div class="perfume_heart">
-													<a class="action-btn" href="wishlist.html" data-toggle="tooltip" data-original-title="Add to Wishlist"><img src="{{asset('assets/front/images/heart.png')}}" class="img-fluid" alt="" /></a>
-												</div>
-												<div class="description">
-													<p>Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Viva..</p>
-												</div>
-												<div class="price-box">
-													<span class="old-price">sold(23)</span>
-													<span class="new-price">SAR90.00</span>
-												</div>
-												<div class="counter">
-													<span class="down" onClick='decreaseCount(event, this)'>-</span>
-													<input type="text" value="1">
-													<span class="up"  onClick='increaseCount(event, this)'>+</span>
-												</div>
+												<a href="#" class="perfume"><img src="{{asset('assets/front/images/pexels-valeria-boltneva-1961795.png')}}" class="img-fluid" alt="" style="width:500px;" /></a>
 												
-												<div class="pro-actions">
-													<a class="action-btn action-btn-1" href="cart.html"><i class="pe-7s-cart"></i>Add to Cart</a>
-												</div>
-												
+										<div class="row">
+											<div class="col-2">			 
+												<a href="#" class="rose_perfume"><img src="{{asset('assets/front/images/Group 32.png')}}" class="img-fluid" alt="" style="" /></a>
 											</div>
-											<div class="col-3"></div>
-						</div>
-											
-										</div>
-								
-		 	</div>
 
-		</div>
-						<!--//banner-slider-->
-						<!--//banner-slider-->
-						<div class="right-banner">
-							<div class="right-1">
+															<div class="col-7 product-content">
+
+																<h2 class="product-name">
+																	<a href="#">Sioufi oud oil</a>
+																</h2>
+																<div class="rating-review">
+																<span>
+																						<div class="rate">
+																								<input type="radio" id="star5" name="rate" value="5" />
+																								<label for="star5" title="text">5 stars</label>
+																								<input type="radio" id="star4" name="rate" value="4" />
+																								<label for="star4" title="text">4 stars</label>
+																								<input type="radio" id="star3" name="rate" value="3" />
+																								<label for="star3" title="text">3 stars</label>
+																								<input type="radio" id="star2" name="rate" value="2" />
+																								<label for="star2" title="text">2 stars</label>
+																								<input type="radio" id="star1" name="rate" value="1" />
+																								<label for="star1" title="text">1 star</label>
+																							</div>
+																				</span>
+																</div>
+																<!-- <div class="stock">
+																	<a href="#">In Stock</a>
+																</div> -->
+																<div class="perfume_heart">
+																	<a class="action-btn" href="wishlist.html" data-toggle="tooltip" data-original-title="Add to Wishlist"><img src="{{asset('assets/front/images/heart.png')}}" class="img-fluid" alt="" /></a>
+																</div>
+																<div class="description">
+																	<p>Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Viva..</p>
+																</div>
+																<div class="price-box">
+																	<span class="old-price">sold(23)</span>
+																	<span class="new-price">SAR90.00</span>
+																</div>
+																<div class="counter">
+																	<span class="down" onClick='decreaseCount(event, this)'>-</span>
+																	<input type="text" value="1">
+																	<span class="up"  onClick='increaseCount(event, this)'>+</span>
+																</div>
+																
+																<div class="pro-actions">
+																	<a class="action-btn action-btn-1" href="cart.html"><i class="pe-7s-cart"></i>Add to Cart</a>
+																</div>
+																
+															</div>
+															<div class="col-3"></div>
+										</div>
+															
+														</div>
+												
 							</div>
+
 						</div>
+										<!--//banner-slider-->
+										<!--//banner-slider-->
+										<div class="right-banner">
+											<div class="right-1">
+											</div>
+										</div>
 					</div>
 
 </section>

@@ -3849,6 +3849,9 @@ a.read-more-btn2.btn:hover {
     left: 82%;
     bottom: 0px;
 }
+.navbar-brand img{
+  margin-top: -25px;
+}
 .navbar-brand2{
   position: relative;
   left: 50px;
@@ -4182,7 +4185,7 @@ a.read-more-btn2.btn:hover {
   display: grid;
   align-items: center;
   /* min-height: 100%; */
-  min-height: 46em;
+  /* min-height: 46em; */
 }
 .w3l-banner-slider-main .right-banner .right-1 {
   background: url(../images/plant.png) no-repeat center;
@@ -7328,8 +7331,8 @@ ul.social-footerhny li {
     top: 73px;
 }
 .logo_layer{
-  left: 82%;
-    bottom: 30%;
+  left: 12%;
+    bottom: 37%;
 }
 ul.social-footerhny li a {
   color: #fff;
@@ -19237,7 +19240,7 @@ a.text-dark:focus {
 }
 
 #wrapper.toggled #sidebar-wrapper {
-    width: 100%;
+    width: 20%;
 }
 
 #page-content-wrapper {
@@ -19260,7 +19263,7 @@ a.text-dark:focus {
 .sidebar-nav {
     position: absolute;
     top: 25%;
-    left: 22%;
+    left: 5%;
     width: 250px;
     margin: 0;
     padding: 0;
@@ -19392,8 +19395,8 @@ a.text-dark:focus {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-    left: 49%;
-    top: 100px;
+    left: -1%;
+    top: -20px;
     z-index: 99999;
 }
 .hamburger.is-closed:before {
@@ -19758,6 +19761,7 @@ input.form-control {
   padding: 0;
   width: 50px;
   height: 50px;
+  z-index: 9999;
 }
 .btn.btn-secondary {
   font-family: "Oswald",sans-serif;
@@ -21322,4 +21326,102 @@ background-color: #EBB157;
 }
 .Manufacturing_Categories p{
   font-size: 15px;
+}
+/*  */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  top: 0;
+  left: 0;
+  background-color: rgba(228, 228, 228, 0.9);
+  /* border: 3px solid #f1f1f1; */
+  z-index: 9;
+}
+.form-popup .pro-actions{
+  top: 85%;
+    left: 47%;
+    position: absolute;
+    width: 50%;
+    color: #fff !important;
+    z-index: 999;
+    padding: 15px 50px;
+    background-color: #C49346;
+}
+.form-popup .perfume_heart {
+  position: relative;
+  right: 60%;
+  bottom: 35px;
+}
+.form-popup .listview .product-content{
+  z-index: 9999;
+}
+/* Add styles to the form container */
+.form-container {
+  max-width: 75%;
+    background-color: white;
+    margin: 5% auto;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  border: none;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+/* perfume window */
+.perfume img{
+  width: 300px;
+}
+.form-popup .cancel{
+  background-image: url("images/1.png") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    bottom: 200px;
+    right: 70%;
+    z-index: 9999;
+}
+.form-popup .right-banner{
+  height: 420px !important;
+  margin-top: -141px;
+}
+.form-popup .rose_perfume{
+  position: relative;
+    top: 60px;
+    left: -15px;
+}
+.form-popup .bannerhny-content{
+  height: 420px;
 }

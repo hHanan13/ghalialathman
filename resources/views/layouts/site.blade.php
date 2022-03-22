@@ -29,80 +29,78 @@
 				<div class="container serarc-fluid">
                     <div class="row">
                         <div class="col-xl-2 col-lg-2 col-md-3 col-6">
-                        <a class="navbar-brand" href="#index.html">
-								<img src="{{asset('assets/front/images/logo-4.png')}}" alt="Your logo" title="Your logo" style="height:150px;" />
-							</a> 
+                            <a class="navbar-brand" href="#index.html">
+                                <img src="{{asset('assets/front/images/logoblack.png')}}" alt="Your logo" title="Your logo" style="height:150px;" />
+                            </a> 
                         </div>
 				
-                    <div class="col-xl-5 col-lg-4 col-md-4 col-5 header-menu d-flex align-items-center justify-content-start">
-                        <div class="col-12 header-menu-search justify-content-between w-100 align-items-center">
+                        <div class="col-xl-5 col-lg-5 col-md-4 col-5 d-flex align-items-center" id="">
+                            <ul class="navbar-nav ml-auto">
+                              <li class="nav-item">
+                              <img src="{{asset('assets/front/images/icon/Group 3579.png')}}" class="img-fluid" alt="" />
+                                <a class="nav-link" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                              <img src="{{asset('assets/front/images/icon/Group 3580.png')}}" class="img-fluid" alt="" />
+                                <a class="nav-link" href="about.html">profile</a>
+                              </li>
+                              <li class="nav-item">
+                              <img src="{{asset('assets/front/images/icon/Group 3583.png')}}" class="img-fluid" alt="" />
+                                <a class="nav-link" href="about.html">Favorite</a>
+                                </li>
 
-                            <div class="advencesearch_header">
-                                <span class="toggle-search hidden-lg-up"><i class="zmdi zmdi-search"></i></span>
-                                <div id="_desktop_search" class="contentsticky_search">
+                              <li class="nav-item">
+                              <img src="{{asset('assets/front/images/icon/Group 3584.png')}}" class="img-fluid" alt="" />
+                                <a class="nav-link" href="contact.html">cart</a>
+                              </li>
+                            </ul>
 
-                                    <!-- begin modules/novadvancedsearch/novadvancedsearch-top.tpl -->
-                                    <!-- block seach mobile -->
-                                    <!-- Block search module TOP -->
-                                    <div id="desktop_search_content"
-                                        data-id_lang="6"
-                                        data-ajaxsearch="1"
-                                        data-novadvancedsearch_type="top"
-                                        data-instantsearch=""
-                                        data-search_ssl=""
-                                        data-link_search_ssl="http://demo.bestprestashoptheme.com/savemart/ar/بحث"
-                                        data-action="http://demo.bestprestashoptheme.com/savemart/ar/module/novadvancedsearch/result">
-                                        <form method="get" action="http://demo.bestprestashoptheme.com/savemart/ar/module/novadvancedsearch/result" id="searchbox" class="form-novadvancedsearch">
-                                            <input type="hidden" name="fc" value="module">
-                                            <input type="hidden" name="module" value="novadvancedsearch">
-                                            <input type="hidden" name="controller" value="result">
-                                            <input type="hidden" name="orderby" value="position" />
-                                            <input type="hidden" name="orderway" value="desc" />
-                                            <input type="hidden" name="id_category" class="id_category" value="0" />
-                                            <div class="input-group">
-                                                <input type="text" id="search_query_top" class="search_query ui-autocomplete-input form-control" name="search_query" value="" placeholder="Search"/>
+				               	</div>
+                         <div class="search-right col-xl-1 col-lg-1 col-md-3 col-7">
 
-                                                        
+                              <a href="#search" title="search"><i class="fas fa-search"></i></a>
+                              <!-- search popup -->
+                              <div id="search" class="pop-overlay">
+                                <div class="popup">
 
-                                                            <span class="input-group-btn">
-                                                                            <button class="btn btn-secondary" type="submit" name="submit_search"><i class=""></i></button>
-                                                            </span>
-                                            </div>
-
-                                        </form>
-                                    </div>
+                                  <form action="#" method="post" class="search-box">
+                                    <input type="search" placeholder="Keyword" name="search" required="required"
+                                      autofocus="">
+                                    <button type="submit" class="btn">Search</button>
+                                  </form>
 
                                 </div>
-                            </div>
+                                <a class="close" href="#">×</a>
+                              </div>
+                            <!-- /search popup -->
                         </div>
-                    </div>
 					
-					<ul class="top-hnt-right-content col-xl-3 col-lg-3 col-md-3 col-7">
-					  <li class="button-log usernhy">
-							<a class="btn-open" href="#">
-								<span class="far fa-heart" aria-hidden="true"></span>
-							</a>
-						</li>
-						<li class="transmitvcart galssescart2 cart cart box_1">
-							<form action="#" method="post" class="last">
-								<input type="hidden" name="cmd" value="_cart">
-								<input type="hidden" name="display" value="1">
-								<button class="top_transmitv_cart" type="submit" name="submit" value="">
-									
-									<span class="fas fa-cart-plus"></span>
-								</button>
-							</form>
-						</li>
+                      <ul class="top-hnt-right-content col-xl-2 col-lg-2 col-md-3 col-7">
+                        <li class="button-log usernhy">
+                          <a class="btn-open" href="#">
+                            <span class="far fa-heart" aria-hidden="true"></span>
+                          </a>
+                        </li>
+                        <li class="transmitvcart galssescart2 cart cart box_1">
+                          <form action="#" method="post" class="last">
+                            <input type="hidden" name="cmd" value="_cart">
+                            <input type="hidden" name="display" value="1">
+                            <button class="top_transmitv_cart" type="submit" name="submit" value="">
+                              
+                              <span class="fas fa-cart-plus"></span>
+                            </button>
+                          </form>
+                        </li>
 
-						<li class="button-log usernhy">
-							<a class="btn-open" href="{{ route('Register') }}">
-								<span class="fas fa-user-alt" aria-hidden="true"></span>
-							</a>
-						</li>
-						
-					</ul>
+                        <li class="button-log usernhy">
+                          <a class="btn-open" href="{{ route('Register') }}">
+                            <span class="fas fa-user-alt" aria-hidden="true"></span>
+                          </a>
+                        </li>
+                        
+                      </ul>
 					<!--//right-->
-					<div class="col-xl-2 col-lg-3 col-md-2 col-4 d-flex justify-content-end align-items-center">
+				           	<div class="col-xl-2 col-lg-2 col-md-2 col-4 d-flex justify-content-end align-items-center">
                         <button type="button" class="hamburger animated fadeInLeft " onclick="openNav()" data-toggle="offcanvas">
                                         
                         </button>
@@ -111,7 +109,7 @@
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                                     <a class="navbar-brand logo_layer" href="#index.html">
                                             <img src="{{asset('assets/front/images/logoblack.png')}}" alt="Your logo" title="Your logo" style="height:150px;" />
-						        	</a> 
+						                        	</a> 
                                         <a href="#">Homepage</a>
                                         <a href="#">Shop</a>
                                         <a href="#">Perfume manufacturing</a>

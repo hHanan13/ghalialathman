@@ -78,22 +78,24 @@
 			</div>
 			<!--/nav-->
 			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container-fluid serarc-fluid">
-					<a class="navbar-brand2" href="index.html">
-				    	<img src="{{asset('assets/front/images/logoblack.png')}}" alt="Your logo" title="Your logo" style="height:120px;" />
-			    	</a>
+				<div class="container d-flex justify-content-between">
+				<div class="row d-flex justify-content-between">
+                          <div class="col-xl-2 col-lg-2 col-md-3 col-6">
+								<a class="navbar-brand2" href="index.html">
+									<img src="{{asset('assets/front/images/logoblack.png')}}" alt="Your logo" title="Your logo" style="height:120px;" />
+								</a>
+                          </div>
 					<!-- if logo is image enable this   
 							<a class="navbar-brand" href="#index.html">
 								<img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
 							</a> -->
-					
 					<!--//search-right-->
-					<button class="navbar-toggler" type="button" data-toggle="collapse"
+					<!-- <button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 						aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon fa fa-bars"> </span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					</button> -->
+					<div class="col-xl-6 col-lg-6 col-md-4 col-5 collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
 							<img src="{{asset('assets/front/images/icon/Group 3579.png')}}" class="img-fluid" alt="" />
@@ -116,7 +118,7 @@
 
 					</div>
 					<!--/search-right-->
-					<div class="search-right">
+					<div class="search-right col-xl-1 col-lg-1 col-md-3 col-7">
 
 						<a href="#search" title="search"><i class="fas fa-search"></i></a>
 						<!-- search popup -->
@@ -134,6 +136,60 @@
 						</div>
 						<!-- /search popup -->
 					</div>
+					<ul class="top-hnt-right-content col-xl-2 col-lg-2 col-md-3 col-7">
+					  <li class="button-log usernhy">
+							<a class="btn-open" href="#">
+								<span class="far fa-heart" aria-hidden="true"></span>
+							</a>
+						</li>
+						<li class="transmitvcart galssescart2 cart cart box_1">
+							<form action="#" method="post" class="last">
+								<input type="hidden" name="cmd" value="_cart">
+								<input type="hidden" name="display" value="1">
+								<button class="top_transmitv_cart" type="submit" name="submit" value="">
+									
+									<span class="fas fa-cart-plus"></span>
+								</button>
+							</form>
+						</li>
+
+						<li class="button-log usernhy">
+							<a class="btn-open" href="{{ route('Register') }}">
+								<span class="fas fa-user-alt" aria-hidden="true"></span>
+							</a>
+						</li>
+						
+					</ul>
+					<div class="col-xl-1 col-lg-1 col-md-2 col-4 d-flex justify-content-end align-items-center">
+                        <button type="button" class="hamburger animated fadeInLeft " onclick="openNav()" data-toggle="offcanvas">          
+                        </button>
+                         <!-- Sidebar -->
+                         <div id="mySidenav" class="sidenav">
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                    <a class="navbar-brand logo_layer" href="#index.html">
+                                            <img src="{{asset('assets/front/images/logoblack.png')}}" alt="Your logo" title="Your logo" style="height:150px;" />
+						                        	</a> 
+                                        <a href="#">Homepage</a>
+                                        <a href="#">Shop</a>
+                                        <a href="#">Perfume manufacturing</a>
+                                        <a href="{{ route('MerchantServices') }}">Merchant Services</a>
+                                        <a href="#">Bank Accounts</a>
+                                        <a href="#">checkout</a>
+                                        <ul class="social-footerhny mt-lg-5 mt-4">
+
+                                            <li><a class="youtube" href="#"><img src="{{asset('assets/front/images/Group 1111.png')}}" class="img-fluid" alt="" /></a>
+                                            </li>
+                                            <li><a class="facebook" href="#"><img src="{{asset('assets/front/images/Group1113.png')}}" class="img-fluid" alt="" /></a>
+                                            </li>
+                                            <li><a class="google" href="#"><img src="{{asset('assets/front/images/Group1112.png')}}" class="img-fluid" alt="" /></a>
+                                            </li>
+                                            <li><a class="twitter" href="#"><img src="{{asset('assets/front/images/Group1110.png')}}" class="img-fluid" alt="" /></a>
+                                            </li>
+
+                                        </ul>
+
+                         </div>
+                    </div>
 				</div>
 			</nav>
 			<!--//nav-->

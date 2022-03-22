@@ -24,190 +24,60 @@
 <section id="wrapper" class="w3l-banner-slider-main">
 	<div class="top-header-content">
 		<header class="tophny-header">
-			<div class="container-fluid" style="height: 30px;">
-				<div class="top-right-strip row">
-					<!--/left-->
-				
-				</div>
-			</div>
+			
 			<!--/nav-->
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container-fluid serarc-fluid">
-					<!-- <a class="navbar-brand" href="index.html">
-						Spry<span class="lohny">S</span>tore</a> -->
-					<!-- if logo is image enable this  --> 
-			<div class="col-lg-6 col-md-7 header-menu d-flex align-items-center justify-content-start">
-                <div class="col-12 header-menu-search justify-content-between w-100 align-items-center">
+				<div class="container serarc-fluid">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-6">
+                        <a class="navbar-brand" href="#index.html">
+								<img src="{{asset('assets/front/images/logo-4.png')}}" alt="Your logo" title="Your logo" style="height:150px;" />
+							</a> 
+                        </div>
+				
+                    <div class="col-xl-5 col-lg-4 col-md-4 col-5 header-menu d-flex align-items-center justify-content-start">
+                        <div class="col-12 header-menu-search justify-content-between w-100 align-items-center">
 
-                    <div class="advencesearch_header">
-                        <span class="toggle-search hidden-lg-up"><i class="zmdi zmdi-search"></i></span>
-                        <div id="_desktop_search" class="contentsticky_search">
+                            <div class="advencesearch_header">
+                                <span class="toggle-search hidden-lg-up"><i class="zmdi zmdi-search"></i></span>
+                                <div id="_desktop_search" class="contentsticky_search">
 
-                            <!-- begin modules/novadvancedsearch/novadvancedsearch-top.tpl -->
-                            <!-- block seach mobile -->
-                            <!-- Block search module TOP -->
-                            <div id="desktop_search_content"
-                                 data-id_lang="6"
-                                 data-ajaxsearch="1"
-                                 data-novadvancedsearch_type="top"
-                                 data-instantsearch=""
-                                 data-search_ssl=""
-                                 data-link_search_ssl="http://demo.bestprestashoptheme.com/savemart/ar/بحث"
-                                 data-action="http://demo.bestprestashoptheme.com/savemart/ar/module/novadvancedsearch/result">
-                                <form method="get" action="http://demo.bestprestashoptheme.com/savemart/ar/module/novadvancedsearch/result" id="searchbox" class="form-novadvancedsearch">
-                                    <input type="hidden" name="fc" value="module">
-                                    <input type="hidden" name="module" value="novadvancedsearch">
-                                    <input type="hidden" name="controller" value="result">
-                                    <input type="hidden" name="orderby" value="position" />
-                                    <input type="hidden" name="orderway" value="desc" />
-                                    <input type="hidden" name="id_category" class="id_category" value="0" />
-                                    <div class="input-group">
-									<div class="input-group-btn nov_category_tree hidden-sm-down">
-                                                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" value="" aria-expanded="false">
-                                                            CATEGORIES
-                                                        </button>
-                                                        <ul class="dropdown-menu list-unstyled">
-                                                            <li class="dropdown-item active" data-value="0"><span>All Categories</span></li>
-                                                            <li class="dropdown-item " data-value="2"><span>الصفحة الرئيسية</span></li>
-                                                            <ul class="list-unstyled pl-5">
-                                                                <li class="dropdown-item" data-value="3" >
-                                                                    <span>Computer &amp; Networking</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="10" >
-                                                                    <span>-- USB</span>
-                                                                    <ul class="list-unstyled">
-                                                                        <li class="dropdown-item" data-value="11" >
-                                                                            <span>---- USB Kingston</span>
-                                                                        </li>
-                                                                        <li class="dropdown-item" data-value="12" >
-                                                                            <span>---- USB Sandisk</span>
-                                                                        </li>
-                                                                        <li class="dropdown-item" data-value="13" >
-                                                                            <span>---- USB Samsung</span>
-                                                                        </li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="14" >
-                                                                    <span>-- Hard Disk</span>
-                                                                    <ul class="list-unstyled">
-                                                                        <li class="dropdown-item" data-value="19" >
-                                                                            <span>---- Hard Disk Drive</span>
-                                                                        </li>
-                                                                        <li class="dropdown-item" data-value="20" >
-                                                                            <span>---- Solid State Drives</span>
-                                                                        </li>
-                                                                        <li class="dropdown-item" data-value="21" >
-                                                                            <span>---- SATA</span>
-                                                                        </li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="15" >
-                                                                    <span>-- Modem WIFI</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="16" >
-                                                                    <span>-- Keyboard</span>
-                                                                    <ul class="list-unstyled">
-                                                                        <li class="dropdown-item" data-value="22" >
-                                                                            <span>---- Keyboard 1</span>
-                                                                        </li>
-                                                                        <li class="dropdown-item" data-value="23" >
-                                                                            <span>---- Keyboard 2</span>
-                                                                        </li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="17" >
-                                                                    <span>-- Mouse</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="18" >
-                                                                    <span>-- Monitor</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="6" >
-                                                                    <span>Laptop &amp; Accessories</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="7" >
-                                                                    <span>-- Laptop 1</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="8" >
-                                                                    <span>-- Laptop 2</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="9" >
-                                                                    <span>Smartphone &amp; Tablet</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="24" >
-                                                                    <span>-- Apple</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="25" >
-                                                                    <span>-- Samsung</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="26" >
-                                                                    <span>-- Motorola</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="27" >
-                                                                    <span>-- Chargers</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="4" >
-                                                                    <span>Home Appliance</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="5" >
-                                                                    <span>Camera &amp; Photo</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="28" >
-                                                                    <span>-- Camera 1</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="29" >
-                                                                    <span>-- Camera 2</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="30" >
-                                                                    <span>-- Photo 1</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="31" >
-                                                                    <span>-- Photo 2</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="32" >
-                                                                    <span>Audio</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="33" >
-                                                                    <span>-- Headphone</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="34" >
-                                                                    <span>-- Wireless Speaker</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="35" >
-                                                                    <span>-- Bluetooth Speaker</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="36" >
-                                                                    <span>-- Mini Speaker</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="37" >
-                                                                    <span>-- Sound Card</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="38" >
-                                                                    <span>-- إكسسوارات</span>
-                                                                </li>
-                                                                <li class="dropdown-item" data-value="39" >
-                                                                    <span>-- Earbuds and  In-ear</span>
-                                                                </li>
-                                                            </ul>
-                                                        </ul>
-                                                    </div>
-                                        <input type="text" id="search_query_top" class="search_query ui-autocomplete-input form-control" name="search_query" value="" placeholder="Search"/>
+                                    <!-- begin modules/novadvancedsearch/novadvancedsearch-top.tpl -->
+                                    <!-- block seach mobile -->
+                                    <!-- Block search module TOP -->
+                                    <div id="desktop_search_content"
+                                        data-id_lang="6"
+                                        data-ajaxsearch="1"
+                                        data-novadvancedsearch_type="top"
+                                        data-instantsearch=""
+                                        data-search_ssl=""
+                                        data-link_search_ssl="http://demo.bestprestashoptheme.com/savemart/ar/بحث"
+                                        data-action="http://demo.bestprestashoptheme.com/savemart/ar/module/novadvancedsearch/result">
+                                        <form method="get" action="http://demo.bestprestashoptheme.com/savemart/ar/module/novadvancedsearch/result" id="searchbox" class="form-novadvancedsearch">
+                                            <input type="hidden" name="fc" value="module">
+                                            <input type="hidden" name="module" value="novadvancedsearch">
+                                            <input type="hidden" name="controller" value="result">
+                                            <input type="hidden" name="orderby" value="position" />
+                                            <input type="hidden" name="orderway" value="desc" />
+                                            <input type="hidden" name="id_category" class="id_category" value="0" />
+                                            <div class="input-group">
+                                                <input type="text" id="search_query_top" class="search_query ui-autocomplete-input form-control" name="search_query" value="" placeholder="Search"/>
 
-                                                   
+                                                        
 
-                                                    <span class="input-group-btn">
-                                                                    <button class="btn btn-secondary" type="submit" name="submit_search"><i class=""></i></button>
-                                                    </span>
+                                                            <span class="input-group-btn">
+                                                                            <button class="btn btn-secondary" type="submit" name="submit_search"><i class=""></i></button>
+                                                            </span>
+                                            </div>
+
+                                        </form>
                                     </div>
 
-                                </form>
+                                </div>
                             </div>
-
                         </div>
                     </div>
-                </div>
-            </div>
 					
-					<ul class="top-hnt-right-content col-lg-3">
+					<ul class="top-hnt-right-content col-xl-3 col-lg-3 col-md-3 col-7">
 					  <li class="button-log usernhy">
 							<a class="btn-open" href="#">
 								<span class="far fa-heart" aria-hidden="true"></span>
@@ -232,78 +102,42 @@
 						
 					</ul>
 					<!--//right-->
-					<div class="overlay-login text-left">
-						<button type="button" class="overlay-close1">
-							<i class="fa fa-times" aria-hidden="true"></i>
-						</button>
-						<div class="wrap">
-							<h5 class="text-center mb-4">Login Now</h5>
-							<div class="login-bghny p-md-5 p-4 mx-auto mw-100">
-								<!--/login-form-->
-								<form action="#" method="post">
-									<div class="form-group">
-										<p class="login-texthny mb-2">Email address</p>
-										<input type="email" class="form-control" id="exampleInputEmail1"
-											aria-describedby="emailHelp" placeholder="" required="">
-										<small id="emailHelp" class="form-text text-muted">We'll never share your email
-											with anyone else.</small>
-									</div>
-									<div class="form-group">
-										<p class="login-texthny mb-2">Password</p>
-										<input type="password" class="form-control" id="exampleInputPassword1"
-											placeholder="" required="">
-									</div>
-									<div class="form-check mb-2">
-										<div class="userhny-check">
-											<label class="check-remember container">
-												<input type="checkbox" class="form-check"> <span
-													class="checkmark"></span>
-												<p class="privacy-policy">Remember me</p>
-											</label>
-											<div class="clearfix"></div>
-										</div>
-									</div>
-									<button type="submit" class="submit-login btn mb-4">Sign In</button>
+					<div class="col-xl-2 col-lg-3 col-md-2 col-4 d-flex justify-content-end align-items-center">
+                        <button type="button" class="hamburger animated fadeInLeft " onclick="openNav()" data-toggle="offcanvas">
+                                        
+                        </button>
+                         <!-- Sidebar -->
+                         <div id="mySidenav" class="sidenav">
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                    <a class="navbar-brand logo_layer" href="#index.html">
+                                            <img src="{{asset('assets/front/images/logoblack.png')}}" alt="Your logo" title="Your logo" style="height:150px;" />
+						        	</a> 
+                                        <a href="#">Homepage</a>
+                                        <a href="#">Shop</a>
+                                        <a href="#">Perfume manufacturing</a>
+                                        <a href="{{ route('MerchantServices') }}">Merchant Services</a>
+                                        <a href="#">Bank Accounts</a>
+                                        <a href="#">checkout</a>
+                                        <ul class="social-footerhny mt-lg-5 mt-4">
 
-								</form>
-								<!--//login-form-->
-							</div>
-							<!---->
-						</div>
-					</div>
-					<div class="overlay"></div>
-					
-							<button type="button" class="hamburger animated fadeInLeft is-closed col-lg-3" data-toggle="offcanvas">
-									
-							</button>
-				               <!-- Sidebar -->
-							<nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
-                            <a class="navbar-brand logo_layer" href="#index.html">
-								<img src="{{asset('assets/front/images/logo-4.png')}}" alt="Your logo" title="Your logo" style="height:150px;" />
-							</a> 
-									<ul class="nav sidebar-nav">
-									
-									<li><a href="#home">Homepage</a></li>
-									<li><a href="#about">Shop</a></li>
-									<li><a href="#events">Perfume manufacturing</a></li>
-									<li><a href="{{ route('MerchantServices') }}">Merchant Services</a></li>
-									<!-- <li class="dropdown">
-									<a href="#works" class="dropdown-toggle"  data-toggle="dropdown">Works <span class="caret"></span></a>
-									<ul class="dropdown-menu animate__animated animate__fadeInLeft" role="menu">
-									<div class="dropdown-header">Dropdown heading</div>
-									<li><a href="#pictures">Pictures</a></li>
-									</ul>
-									</li> -->
-									<li><a href="#services">Bank Accounts</a></li>
-									<li><a href="#contact">checkout</a></li>
-									</ul>
-							</nav>
-					
-				</div>
-			</nav>
-			<a class="navbar-brand" href="#index.html">
-								<img src="{{asset('assets/front/images/logo-4.png')}}" alt="Your logo" title="Your logo" style="height:150px;" />
-							</a> 
+                                            <li><a class="youtube" href="#"><img src="{{asset('assets/front/images/Group 1111.png')}}" class="img-fluid" alt="" /></a>
+                                            </li>
+                                            <li><a class="facebook" href="#"><img src="{{asset('assets/front/images/Group1113.png')}}" class="img-fluid" alt="" /></a>
+                                            </li>
+                                            <li><a class="google" href="#"><img src="{{asset('assets/front/images/Group1112.png')}}" class="img-fluid" alt="" /></a>
+                                            </li>
+                                            <li><a class="twitter" href="#"><img src="{{asset('assets/front/images/Group1110.png')}}" class="img-fluid" alt="" /></a>
+                                            </li>
+
+                                        </ul>
+
+                         </div>
+                    </div>
+				              
+                         </div>
+                            
+                 </div>
+			
 			<!--//nav-->
 		</header>
 		<div class="bannerhny-content">
@@ -373,19 +207,7 @@
 			<!--//banner-slider-->
 			<div class="right-banner">
 				<div class="right-1">
-						<ul class="social-footerhny mt-lg-5 mt-4">
-                        <a class="double" href="#"><img src="{{asset('assets/front/images/Group13.png')}}" class="img-fluid" alt="" /></a>
-
-								<li><a class="youtube" href="#"><img src="{{asset('assets/front/images/Group 1111.png')}}" class="img-fluid" alt="" /></a>
-								</li>
-								<li><a class="facebook" href="#"><img src="{{asset('assets/front/images/Group1113.png')}}" class="img-fluid" alt="" /></a>
-								</li>
-								<li><a class="google" href="#"><img src="{{asset('assets/front/images/Group1112.png')}}" class="img-fluid" alt="" /></a>
-								</li>
-								<li><a class="twitter" href="#"><img src="{{asset('assets/front/images/Group1110.png')}}" class="img-fluid" alt="" /></a>
-								</li>
-								
-						</ul>
+					
 				</div>
 			</div>
 
@@ -642,36 +464,7 @@
   });
 </script>
 <!-- menu -->
-<script>
-	$(document).ready(function () {
-  var trigger = $('.hamburger'),
-      overlay = $('.overlay'),
-     isClosed = false;
 
-    trigger.click(function () {
-      hamburger_cross();      
-    });
-
-    function hamburger_cross() {
-
-      if (isClosed == true) {          
-        overlay.hide();
-        trigger.removeClass('is-open');
-        trigger.addClass('is-closed');
-        isClosed = false;
-      } else {   
-        overlay.show();
-        trigger.removeClass('is-closed');
-        trigger.addClass('is-open');
-        isClosed = true;
-      }
-  }
-  
-  $('[data-toggle="offcanvas"]').click(function () {
-        $('#wrapper').toggleClass('toggled');
-  });  
-});
-</script>
 <script src="{{asset('assets/front/js/owlcarousel2.2.1.js')}}"></script>
 <script src="{{asset('assets/front/js/wow.min.js')}}"></script>
 <script src="{{asset('assets/front/js/wow.js')}}"></script>
@@ -698,7 +491,15 @@ $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();   
 });
 </script>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "230px";
+}
 
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 </body>
 </html>
 

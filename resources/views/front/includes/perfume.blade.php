@@ -7,7 +7,7 @@
 				
 			<h3 class="hny-title mb-0 text-center">Perfume categories</h3>
 			<div class="welcome-grids row mt-5">
-				<div class="col-lg-3 col-md-4 col-6 welcome-image">
+				<div class="col-lg-3 col-md-3 col-6 welcome-image">
 						<div class="boxhny13">
 								<a href="#URL">
 										<img src="{{asset('assets/front/images/cat1.jpg')}}" class="img-fluid" alt="" />
@@ -18,7 +18,7 @@
 						</div>
 
 				</div>
-				<div class="col-lg-3 col-md-4 col-6 welcome-image">
+				<div class="col-lg-3 col-md-3 col-6 welcome-image">
 						<div class="boxhny13">
 								<a href="#URL">
 										<img src="{{asset('assets/front/images/cat2.jpg')}}" class="img-fluid" alt="" />
@@ -30,7 +30,7 @@
 
 					
 				</div>
-				<div class="col-lg-3 col-md-4 col-6 welcome-image">
+				<div class="col-lg-3 col-md-3 col-6 welcome-image">
 						<div class="boxhny13">
 								<a href="#URL">
 										<img src="{{asset('assets/front/images/cat4.jpg')}}" class="img-fluid" alt="" />
@@ -42,7 +42,7 @@
 
 				
 				</div>
-				<div class="col-lg-3 col-md-4 col-6 welcome-image">
+				<div class="col-lg-3 col-md-3 col-6 welcome-image">
 						<div class="boxhny13">
 								<a href="#URL">
 										<img src="{{asset('assets/front/images/cat3.jpg')}}" class="img-fluid" alt="" />

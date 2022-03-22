@@ -22,122 +22,248 @@
 <body>
 <!--w3l-banner-slider-main-->
 <section id="wrapper" class="w3l-banner-slider-main">
-	<div class="top-header-content">
-		<header class="tophny-header" style="z-index: 9999;">
-			<div class="container-fluid" style="height: 60px;">
-            <a class="navbar-brand1" href="#index.html">
+    <header class="tophny-header main">
+			
+			<!--/nav-->
+				<div class="container serarc-fluid">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-6">
+                        <a class="navbar-brand" href="#index.html">
 								<img src="{{asset('assets/front/images/logo-4.png')}}" alt="Your logo" title="Your logo" style="height:150px;" />
 							</a> 
-			</div>
-			<!--/nav-->
-		
+                        </div>
+				
+                    <div class="col-xl-5 col-lg-4 col-md-4 col-5 header-menu d-flex align-items-center justify-content-start">
+                        <div class="col-12 header-menu-search justify-content-between w-100 align-items-center">
+
+                            <div class="advencesearch_header">
+                                <span class="toggle-search hidden-lg-up"><i class="zmdi zmdi-search"></i></span>
+                                <div id="_desktop_search" class="contentsticky_search">
+
+                                    <!-- begin modules/novadvancedsearch/novadvancedsearch-top.tpl -->
+                                    <!-- block seach mobile -->
+                                    <!-- Block search module TOP -->
+                                    <div id="desktop_search_content"
+                                        data-id_lang="6"
+                                        data-ajaxsearch="1"
+                                        data-novadvancedsearch_type="top"
+                                        data-instantsearch=""
+                                        data-search_ssl=""
+                                        data-link_search_ssl="http://demo.bestprestashoptheme.com/savemart/ar/بحث"
+                                        data-action="http://demo.bestprestashoptheme.com/savemart/ar/module/novadvancedsearch/result">
+                                        <form method="get" action="http://demo.bestprestashoptheme.com/savemart/ar/module/novadvancedsearch/result" id="searchbox" class="form-novadvancedsearch">
+                                            <input type="hidden" name="fc" value="module">
+                                            <input type="hidden" name="module" value="novadvancedsearch">
+                                            <input type="hidden" name="controller" value="result">
+                                            <input type="hidden" name="orderby" value="position" />
+                                            <input type="hidden" name="orderway" value="desc" />
+                                            <input type="hidden" name="id_category" class="id_category" value="0" />
+                                            <div class="input-group">
+                                                <input type="text" id="search_query_top" class="search_query ui-autocomplete-input form-control" name="search_query" value="" placeholder="Search"/>
+
+                                                        
+
+                                                            <span class="input-group-btn">
+                                                                            <button class="btn btn-secondary" type="submit" name="submit_search"><i class=""></i></button>
+                                                            </span>
+                                            </div>
+
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					
+					<ul class="top-hnt-right-content col-xl-3 col-lg-3 col-md-3 col-7">
+					  <li class="button-log usernhy">
+							<a class="btn-open" href="#">
+								<span class="far fa-heart" aria-hidden="true"></span>
+							</a>
+						</li>
+						<li class="transmitvcart galssescart2 cart cart box_1">
+							<form action="#" method="post" class="last">
+								<input type="hidden" name="cmd" value="_cart">
+								<input type="hidden" name="display" value="1">
+								<button class="top_transmitv_cart" type="submit" name="submit" value="">
+									
+									<span class="fas fa-cart-plus"></span>
+								</button>
+							</form>
+						</li>
+
+						<li class="button-log usernhy">
+							<a class="btn-open" href="{{ route('Register') }}">
+								<span class="fas fa-user-alt" aria-hidden="true"></span>
+							</a>
+						</li>
+						
+					</ul>
+					<!--//right-->
+					<div class="col-xl-2 col-lg-3 col-md-2 col-4 d-flex justify-content-end align-items-center">
+                        <button type="button" class="hamburger animated fadeInLeft " onclick="openNav()" data-toggle="offcanvas">
+                                        
+                        </button>
+                         <!-- Sidebar -->
+                         <div id="mySidenav" class="sidenav">
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                    <a class="navbar-brand logo_layer" href="#index.html">
+                                            <img src="{{asset('assets/front/images/logoblack.png')}}" alt="Your logo" title="Your logo" style="height:150px;" />
+						        	</a> 
+                                        <a href="#">Homepage</a>
+                                        <a href="#">Shop</a>
+                                        <a href="#">Perfume manufacturing</a>
+                                        <a href="{{ route('MerchantServices') }}">Merchant Services</a>
+                                        <a href="#">Bank Accounts</a>
+                                        <a href="#">checkout</a>
+                                        <ul class="social-footerhny mt-lg-5 mt-4">
+
+                                            <li><a class="youtube" href="#"><img src="{{asset('assets/front/images/Group 1111.png')}}" class="img-fluid" alt="" /></a>
+                                            </li>
+                                            <li><a class="facebook" href="#"><img src="{{asset('assets/front/images/Group1113.png')}}" class="img-fluid" alt="" /></a>
+                                            </li>
+                                            <li><a class="google" href="#"><img src="{{asset('assets/front/images/Group1112.png')}}" class="img-fluid" alt="" /></a>
+                                            </li>
+                                            <li><a class="twitter" href="#"><img src="{{asset('assets/front/images/Group1110.png')}}" class="img-fluid" alt="" /></a>
+                                            </li>
+
+                                        </ul>
+
+                         </div>
+                    </div>
+				              
+                         </div>
+                            
+                 </div>
+			
 			<!--//nav-->
 		</header>
-		
 
 </section>
-<section class="loginWrapper col-lg-11">
-  
-  <ul class="tabs">
-      <li class="active"><span><img src="{{asset('assets/front/images/Group152.png')}}" class="img-fluid log" alt="" /></span>&nbsp; &nbsp;&nbsp;&nbsp; Login</li>
-      <li><span><img src="{{asset('assets/front/images/Group151.png')}}" class="img-fluid log" alt="" /></span>&nbsp;&nbsp;&nbsp;Register</li>
-  </ul>
+<section class="loginWrapper col-11">
+   <div class="container">
+        <div class="row">
+                    <ul class="tabs col-xl-2">
+                        <li class="active"><span><img src="{{asset('assets/front/images/Group152.png')}}" class="img-fluid log" alt="" /></span>&nbsp;  Login</li>
+                        <li><span><img src="{{asset('assets/front/images/Group151.png')}}" class="img-fluid log" alt="" /></span>&nbsp;&nbsp;&nbsp;Register</li>
+                    </ul>
 
-  <ul class="tab__content">
-  
-      <li class="active">
-          <div class="content__wrapper">
-              <form method="POST" action="">
-                <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">Email</label>
-                        <div class="col-sm-10">
-                            <input type="email" name="email" placeholder="">
-                        </div>
-                </div>
-                <div class="form-group row">
-                  <label class="col-sm-2 col-form-label">Password</label>
-                        <div class="col-sm-10">
-                                <input type="password" name="password" placeholder="">
-                        </div>
+                    <ul class="tab__content col-xl-10">
+            
+                        <li class="active">
+                            <div class="content__wrapper">
+                                <form method="POST" action="">
+                                  <div class="row">
+                                     <div class="col-xl-8 col-lg-8 col-md-12 col-12">
+                                            <div class="form-group row">
+                                                        <label class="col-xl-3 col-lg-3 col-md-3 col-2 col-form-label">Email</label>
+                                                        <div class="col-xl-9 col-lg-9 col-md-9 col-10">
+                                                            <input type="email" name="email" placeholder="">
+                                                        </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label class="col-xl-3 col-lg-3 col-md-3 col-2 col-form-label">Password</label>
+                                                <div class="col-xl-9 col-lg-9 col-md-9 col-10">
+                                                                <input type="password" name="password" placeholder="">
+                                                                
+                                                </div>
 
-               </div>
-               <div class="col-12">
-                        <a href="#" class="eye"><img src="{{asset('assets/front/images/eye.png')}}" class="img-fluid" alt="" /></a>
-                </div>
-                <div class="form-group text-center">
-							<input type="checkbox" tabindex="3" class="check" name="remember" id="remember">
-							<label class="remember" for="remember"> Remember Me</label>
-				</div>
-                  <input type="submit" value="Login" name="login">
-                  <div class="col-lg-12">
-                        <div class="text-center">
-                                    <a href="#" tabindex="5" class="forgot-password">Forgot Password?</a>
+                                            </div>
+                                            <div class="col-12">
+                                                        <a href="#" class="eye"><img src="{{asset('assets/front/images/eye.png')}}" class="img-fluid" alt="" /></a>
+                                            </div>
+                                            <div class="col-xl-12 col-lg-10 col-md-10 col-12 form-group text-center">
+                                                        <input type="checkbox" tabindex="3" class="check" name="remember" id="remember">
+                                                        <label class="remember" for="remember"> Remember Me</label>
+                                            </div>
+                                            <div class="col-12 text-center">
+                                                <input type="submit" value="Login" name="login">
+                                            </div>
+                                            <div class="col-12">
+                                                    <div class="text-center">
+                                                                <a href="#" tabindex="5" class="forgot-password">Forgot Password?</a>
+                                                        </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-12">
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                    </div>
-              </form>
-          </div>
-      </li>
- 
-      <li>
-          <div class="content__wrapper">
-              <form method="POST" action="">
-              
-                  <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">Email</label>
-                        <div class="col-sm-10">
-                            <input type="email" name="email" placeholder="">
-                        </div>
-                </div>
-                <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">First Name</label>
-                        <div class="col-sm-10">
-                            <input type="name" name="name" placeholder="">
-                        </div>
-                </div>
-                <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">Last Name</label>
-                        <div class="col-sm-10">
-                            <input type="name" name="name" placeholder="">
-                        </div>
-                </div>
-                <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">Store Name</label>
-                        <div class="col-sm-10">
-                            <input type="name" name="sname" placeholder="">
-                        </div>
-                </div>
-                <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">Store Link</label>
-                        <div class="col-sm-10">
-                            <input type="url" name="slink" placeholder="">
-                        </div>
-                </div>
-                <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">Phone</label>
-                        <div class="col-sm-10">
-                            <input type="tel" name="phone" placeholder="">
-                        </div>
-                </div>
-               
-                <div class="form-group text-center">
-							<input type="checkbox" tabindex="3" class="check1" name="remember" id="remember">
-							<label class="remember" for="remember">I have read and agree to the Terms & Conditions.</label>
-				</div>
-                  <input type="submit" value="Register" name="Register">
-                  <div class="col-lg-12">
-                        <div class="text-center">
-                            <a class="title">I'm Client.</a>
-                                    <a href="#" tabindex="5" class="forgot-password">Login</a>
+                        </li>
+                    
+                        <li>
+                            <div class="content__wrapper">
+                                <form method="POST" action="">
+                                  <div class="row">
+                                        <div class="col-xl-8 col-lg-8 col-md-12 col-12">
+                                        
+                                            <div class="form-group row">
+                                                    <label class="col-xl-3 col-lg-3 col-md-3 col-3 col-form-label">Email</label>
+                                                    <div class="col-xl-9 col-lg-9 col-md-9 col-9">
+                                                        <input type="email" name="email" placeholder="">
+                                                    </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                    <label class="col-xl-3 col-lg-3 col-md-3 col-3 col-form-label">First Name</label>
+                                                    <div class="col-xl-9 col-lg-9 col-md-9 col-9">
+                                                        <input type="name" name="name" placeholder="">
+                                                    </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                    <label class="col-xl-3 col-lg-3 col-md-3 col-3 col-form-label">Last Name</label>
+                                                    <div class="col-xl-9 col-lg-9 col-md-9 col-9">
+                                                        <input type="name" name="name" placeholder="">
+                                                    </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                    <label class="col-xl-3 col-lg-3 col-md-3 col-3 col-form-label">Store Name</label>
+                                                    <div class="col-xl-9 col-lg-9 col-md-9 col-9">
+                                                        <input type="name" name="sname" placeholder="">
+                                                    </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                    <label class="col-xl-3 col-lg-3 col-md-3 col-3 col-form-label">Store Link</label>
+                                                    <div class="col-xl-9 col-lg-9 col-md-9 col-9">
+                                                        <input type="url" name="slink" placeholder="">
+                                                    </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                    <label class="col-xl-3 col-lg-3 col-md-3 col-3 col-form-label">Phone</label>
+                                                    <div class="col-xl-9 col-lg-9 col-md-9 col-9">
+                                                        <input type="tel" name="phone" placeholder="">
+                                                    </div>
+                                            </div>
+                                        
+                                            <div class="col-12 form-group text-center">
+                                                        <input type="checkbox" tabindex="3" class="check1" name="remember" id="remember">
+                                                        <label class="remember" for="remember">I have read and agree to the Terms & Conditions.</label>
+                                            </div>
+                                            <div class="col-12 text-center">
+                                                <input type="submit" value="Register" name="Register">
+                                            </div>
+                                            <div class="col-lg-12">
+                                                    <div class="text-center">
+                                                        <a class="title">I'm Client.</a>
+                                                                <a href="#" tabindex="5" class="forgot-password">Login</a>
+                                                        </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-12">
+                                            <div class="note">
+                                            <a href="#"><img src="{{asset('assets/front/images/Group160.png')}}" class="img-fluid" alt="" /></a>
+                                                <h5>Your personal data will be used to support your experience throughout this website.</h5>
+                                            </div>
+                                        </div>
+                                  </div>
+                                </form>
+                               
                             </div>
-                    </div>
-              </form>
-              <div class="note">
-                <a href="#"><img src="{{asset('assets/front/images/Group160.png')}}" class="img-fluid" alt="" /></a>
-                    <h5>Your personal data will be used to support your experience throughout this website.</h5>
-              </div>
-          </div>
-      </li>
-  </ul>
+                        </li>
+            </ul>
+        </div>
+    </div>
 </section>
 	  <script src="{{asset('assets/front/js/jquery-2.1.4.min.js')}}"></script>
 <script src="{{asset('assets/front/js/jquery-3.3.1.min.js')}}"></script>
@@ -233,6 +359,15 @@
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();   
 });
+</script>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "230px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
 </script>
 
 </body>

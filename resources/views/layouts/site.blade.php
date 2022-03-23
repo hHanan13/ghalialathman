@@ -34,7 +34,7 @@
                             </a> 
                         </div>
 				
-                        <div class="col-xl-5 col-lg-5 col-md-4 col-5 d-flex align-items-center" id="">
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-5 d-flex align-items-center" id="">
                             <ul class="navbar-nav ml-auto">
                               <li class="nav-item">
                               <img src="{{asset('assets/front/images/icon/Group 3579.png')}}" class="img-fluid" alt="" />
@@ -42,21 +42,21 @@
                               </li>
                               <li class="nav-item">
                               <img src="{{asset('assets/front/images/icon/Group 3580.png')}}" class="img-fluid" alt="" />
-                                <a class="nav-link" href="about.html">profile</a>
+                                <a class="nav-link" href="about.html">Merchant Services</a>
                               </li>
                               <li class="nav-item">
                               <img src="{{asset('assets/front/images/icon/Group 3583.png')}}" class="img-fluid" alt="" />
-                                <a class="nav-link" href="about.html">Favorite</a>
+                                <a class="nav-link" href="about.html">perfume</a>
                                 </li>
 
-                              <li class="nav-item">
+                              <!-- <li class="nav-item">
                               <img src="{{asset('assets/front/images/icon/Group 3584.png')}}" class="img-fluid" alt="" />
                                 <a class="nav-link" href="contact.html">cart</a>
-                              </li>
+                              </li> -->
                             </ul>
 
 				               	</div>
-                         <div class="search-right col-xl-1 col-lg-1 col-md-3 col-7">
+                         <div class="search-right col-xl-1 col-lg-1 col-md-1 col-7">
 
                               <a href="#search" title="search"><i class="fas fa-search"></i></a>
                               <!-- search popup -->
@@ -75,7 +75,7 @@
                             <!-- /search popup -->
                         </div>
 					
-                      <ul class="top-hnt-right-content col-xl-2 col-lg-2 col-md-3 col-7">
+                      <ul class="top-hnt-right-content col-xl-2 col-lg-2 col-md-2 col-7">
                         <li class="button-log usernhy">
                           <a class="btn-open" href="#">
                             <span class="far fa-heart" aria-hidden="true"></span>

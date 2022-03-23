@@ -23,145 +23,86 @@
 <!--w3l-banner-slider-main-->
 <section id="wrapper" class="w3l-banner-slider-main">
 	<div class="top-header-content">
-    <header class="tophny-header">
-			<div class="container-fluid">
-				<div class="top-right-strip row">
-					<!--/left-->
-					<div class="top-hny-left-content col-lg-6 pl-lg-0">
-						<h6><i class="fas fa-envelope"></i>  example@gmail.com </h6>
-						<h6><i class="fas fa-phone-alt"></i>  123 456 7890 </h6>
-					</div>
-					<!--//left-->
-					<!--/right-->
-					
-					<!--//right-->
-					<div class="overlay-login text-left">
-						<button type="button" class="overlay-close1">
-							<i class="fa fa-times" aria-hidden="true"></i>
-						</button>
-						<div class="wrap">
-							<h5 class="text-center mb-4">Login Now</h5>
-							<div class="login-bghny p-md-5 p-4 mx-auto mw-100">
-								<!--/login-form-->
-								<form action="#" method="post">
-									<div class="form-group">
-										<p class="login-texthny mb-2">Email address</p>
-										<input type="email" class="form-control" id="exampleInputEmail1"
-											aria-describedby="emailHelp" placeholder="" required="">
-										<small id="emailHelp" class="form-text text-muted">We'll never share your email
-											with anyone else.</small>
-									</div>
-									<div class="form-group">
-										<p class="login-texthny mb-2">Password</p>
-										<input type="password" class="form-control" id="exampleInputPassword1"
-											placeholder="" required="">
-									</div>
-									<div class="form-check mb-2">
-										<div class="userhny-check">
-											<label class="check-remember container">
-												<input type="checkbox" class="form-check"> <span
-													class="checkmark"></span>
-												<p class="privacy-policy">Remember me</p>
-											</label>
-											<div class="clearfix"></div>
-										</div>
-									</div>
-									<button type="submit" class="submit-login btn mb-4">Sign In</button>
-
-								</form>
-								<!--//login-form-->
-							</div>
-							<!---->
-						</div>
-					</div>
-				</div>
-			</div>
+	<header class="tophny-header">
+			
 			<!--/nav-->
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container d-flex justify-content-between">
-				<div class="row d-flex justify-content-between">
-                          <div class="col-xl-2 col-lg-2 col-md-3 col-6">
-								<a class="navbar-brand2" href="index.html">
-									<img src="{{asset('assets/front/images/logoblack.png')}}" alt="Your logo" title="Your logo" style="height:120px;" />
-								</a>
-                          </div>
-					<!-- if logo is image enable this   
-							<a class="navbar-brand" href="#index.html">
-								<img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-							</a> -->
-					<!--//search-right-->
-					<!-- <button class="navbar-toggler" type="button" data-toggle="collapse"
-						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-						aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon fa fa-bars"> </span>
-					</button> -->
-					<div class="col-xl-6 col-lg-6 col-md-4 col-5 collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item">
-							<img src="{{asset('assets/front/images/icon/Group 3579.png')}}" class="img-fluid" alt="" />
-								<a class="nav-link" href="index.html">Home</a>
-							</li>
-							<li class="nav-item">
-							<img src="{{asset('assets/front/images/icon/Group 3580.png')}}" class="img-fluid" alt="" />
-								<a class="nav-link" href="about.html">profile</a>
-							</li>
-							<li class="nav-item">
-							<img src="{{asset('assets/front/images/icon/Group 3583.png')}}" class="img-fluid" alt="" />
-								<a class="nav-link" href="about.html">Favorite</a>
-							  </li>
+				<div class="container serarc-fluid">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-4">
+                            <a class="navbar-brand" href="#index.html">
+                                <img src="{{asset('assets/front/images/logoblack.png')}}" alt="Your logo" title="Your logo" style="height:150px;" />
+                            </a> 
+                        </div>
+				
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-8 d-flex align-items-center" id="">
+                            <ul class="navbar-nav ml-auto">
+                              <li class="nav-item">
+                              <img src="{{asset('assets/front/images/icon/Group 3579.png')}}" class="img-fluid" alt="" />
+                                <a class="nav-link" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                              <img src="{{asset('assets/front/images/icon/Group 3580.png')}}" class="img-fluid" alt="" />
+                                <a class="nav-link" href="about.html">Merchant Services</a>
+                              </li>
+                              <li class="nav-item">
+                              <img src="{{asset('assets/front/images/icon/Group 3583.png')}}" class="img-fluid" alt="" />
+                                <a class="nav-link" href="about.html">perfume</a>
+                                </li>
 
-							<li class="nav-item">
-							<img src="{{asset('assets/front/images/icon/Group 3584.png')}}" class="img-fluid" alt="" />
-								<a class="nav-link" href="contact.html">cart</a>
-							</li>
-						</ul>
+                              <!-- <li class="nav-item">
+                              <img src="{{asset('assets/front/images/icon/Group 3584.png')}}" class="img-fluid" alt="" />
+                                <a class="nav-link" href="contact.html">cart</a>
+                              </li> -->
+                            </ul>
 
-					</div>
-					<!--/search-right-->
-					<div class="search-right col-xl-1 col-lg-1 col-md-3 col-7">
+				               	</div>
+                         <div class="search-right col-xl-1 col-lg-1 col-md-1 col-2">
 
-						<a href="#search" title="search"><i class="fas fa-search"></i></a>
-						<!-- search popup -->
-						<div id="search" class="pop-overlay">
-							<div class="popup">
+                              <a href="#search" title="search"><i class="fas fa-search"></i></a>
+                              <!-- search popup -->
+                              <div id="search" class="pop-overlay">
+                                <div class="popup">
 
-								<form action="#" method="post" class="search-box">
-									<input type="search" placeholder="Keyword" name="search" required="required"
-										autofocus="">
-									<button type="submit" class="btn">Search</button>
-								</form>
+                                  <form action="#" method="post" class="search-box">
+                                    <input type="search" placeholder="Keyword" name="search" required="required"
+                                      autofocus="">
+                                    <button type="submit" class="btn">Search</button>
+                                  </form>
 
-							</div>
-							<a class="close" href="#">×</a>
-						</div>
-						<!-- /search popup -->
-					</div>
-					<ul class="top-hnt-right-content col-xl-2 col-lg-2 col-md-3 col-7">
-					  <li class="button-log usernhy">
-							<a class="btn-open" href="#">
-								<span class="far fa-heart" aria-hidden="true"></span>
-							</a>
-						</li>
-						<li class="transmitvcart galssescart2 cart cart box_1">
-							<form action="#" method="post" class="last">
-								<input type="hidden" name="cmd" value="_cart">
-								<input type="hidden" name="display" value="1">
-								<button class="top_transmitv_cart" type="submit" name="submit" value="">
-									
-									<span class="fas fa-cart-plus"></span>
-								</button>
-							</form>
-						</li>
+                                </div>
+                                <a class="close" href="#">×</a>
+                              </div>
+                            <!-- /search popup -->
+                        </div>
+					
+                      <ul class="top-hnt-right-content col-xl-2 col-lg-2 col-md-2 col-7">
+                        <li class="button-log usernhy">
+                          <a class="btn-open" href="#">
+                            <span class="far fa-heart" aria-hidden="true"></span>
+                          </a>
+                        </li>
+                        <li class="transmitvcart galssescart2 cart cart box_1">
+                          <form action="#" method="post" class="last">
+                            <input type="hidden" name="cmd" value="_cart">
+                            <input type="hidden" name="display" value="1">
+                            <button class="top_transmitv_cart" type="submit" name="submit" value="">
+                              
+                              <span class="fas fa-cart-plus"></span>
+                            </button>
+                          </form>
+                        </li>
 
-						<li class="button-log usernhy">
-							<a class="btn-open" href="{{ route('Register') }}">
-								<span class="fas fa-user-alt" aria-hidden="true"></span>
-							</a>
-						</li>
-						
-					</ul>
-					<div class="col-xl-1 col-lg-1 col-md-2 col-4 d-flex justify-content-end align-items-center">
-                        <button type="button" class="hamburger animated fadeInLeft " onclick="openNav()" data-toggle="offcanvas">          
+                        <li class="button-log usernhy">
+                          <a class="btn-open" href="{{ route('Register') }}">
+                            <span class="fas fa-user-alt" aria-hidden="true"></span>
+                          </a>
+                        </li>
+                        
+                      </ul>
+					<!--//right-->
+				           	<div class="col-xl-2 col-lg-2 col-md-2 col-2 d-flex justify-content-end align-items-center">
+                        <button type="button" class="hamburger animated fadeInLeft " onclick="openNav()" data-toggle="offcanvas">
+                                        
                         </button>
                          <!-- Sidebar -->
                          <div id="mySidenav" class="sidenav">
@@ -190,8 +131,11 @@
 
                          </div>
                     </div>
-				</div>
-			</nav>
+				              
+                         </div>
+                            
+                 </div>
+			
 			<!--//nav-->
 		</header>
 		</br></br>
@@ -199,7 +143,7 @@
 			<div class="single_slider  d-flex align-items-center slider_bg_1">
 				<div class="container">
 					<div class="row align-items-center">
-						<div class="col-lg-5 col-md-6">
+						<div class="col-xl-5 col-lg-5 col-md-6 col-12">
 							<div class="slider_text">
 									<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInLeft;">You can start your perfume business at the lowest costs</h3>
 									<div class="line wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;"></div>
@@ -217,12 +161,12 @@
 									
 							</div>
 						</div>
-						<div class="col-lg-1 col-md-6"></div>
-						<div class="col-lg-6 col-md-6">
+						<div class="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+						<div class="col-xl-6 col-lg-6 col-md-5 col-12">
 						<img src="{{asset('assets/front/images/Group 453.png')}}" class="img-fluid wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;" alt="" />
 						
 						</div>
-						<div class="icon_links col-md-2 offset-md-8">
+						<div class="icon_links col-xl-2 offset-xl-8 col-lg-2 offset-lg-8 col-md-2 offset-md-8 col-11">
 						            <ul class="icons mt-lg-5 mt-4">
 
 										<li><a class="youtube" href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -245,13 +189,13 @@
 <section>
                 <div class="container">
 					<div class="row align-items-center">
-					<div class="col-lg-6 col-md-6">
+					<div class="col-xl-6 col-lg-6 col-md-5 col-12">
 						<img src="{{asset('assets/front/images/Group 471.png')}}" class="img-fluid wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;" alt="" />
 						
-						</div>
+					</div>
 						
-						<div class="col-lg-1 col-md-6"></div>
-						<div class="col-lg-5 col-md-6">
+						<div class="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+						<div class="col-xl-5 col-lg-5 col-md-6 col-12">
 							<div class="slider_text1">
 									<h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">Register for a merchant service</h3>
 									<div class="line wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;"></div>
@@ -270,7 +214,7 @@
                 <div class="container">
 					<div class="row align-items-center">
 					
-					<div class="col-lg-5 col-md-6">
+					<div class="col-xl-5 col-lg-5 col-md-6 col-12">
 							<div class="slider_text2">
 									<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInLeft;">perfume supply</h3>
 									<div class="line wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;"></div>
@@ -279,8 +223,8 @@
 									<div class="type"></div>
 							</div>
 						</div>
-						<div class="col-lg-1 col-md-6"></div>
-						<div class="col-lg-6 col-md-6">
+						<div class="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+						<div class="col-xl-6 col-lg-6 col-md-5 col-12">
 						<img src="{{asset('assets/front/images/Group 543.png')}}" class="img-fluid wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;" alt="" />
 						
 						</div>
@@ -293,13 +237,13 @@
 <section class="forth">
                 <div class="container">
 					<div class="row align-items-center">
-					<div class="col-lg-6 col-md-6">
-						<img src="{{asset('assets/front/images/Group 1786.png')}}" class="img-fluid wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;" alt="" />
+						<div class="col-xl-6 col-lg-6 col-md-5 col-12">
+								<img src="{{asset('assets/front/images/Group 1786.png')}}" class="img-fluid wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;" alt="" />
+							
+							</div>
 						
-						</div>
-						
-						<div class="col-lg-1 col-md-6"></div>
-						<div class="col-lg-5 col-md-6">
+						<div class="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+						<div class="col-xl-5 col-lg-5 col-md-6 col-12">
 							<div class="slider_text3">
 									<h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">Inventory</h3>
 									<div class="line wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;"></div>
@@ -317,8 +261,7 @@
 <section class="fifth">
                 <div class="container">
 					<div class="row align-items-center">
-					
-					<div class="col-lg-5 col-md-6">
+					<div class="col-xl-5 col-lg-5 col-md-6 col-12">
 							<div class="slider_text4">
 									<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInLeft;">cargo management system</h3>
 									<div class="line wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;"></div>
@@ -327,13 +270,11 @@
 									<div class="type"></div>
 							</div>
 						</div>
-						<div class="col-lg-1 col-md-6"></div>
-						<div class="col-lg-6 col-md-6">
+						<div class="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+						<div class="col-xl-6 col-lg-6 col-md-5 col-12">
 						<img src="{{asset('assets/front/images/Group 1900.png')}}" class="img-fluid wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;" alt="" />
 						
 						</div>
-					
-						
 					</div>
 				</div>
 </section>
@@ -341,13 +282,12 @@
 <section class="sixth">
                 <div class="container">
 					<div class="row align-items-center">
-              		<div class="col-lg-6 col-md-6">
-						<img src="{{asset('assets/front/images/Group 2369.png')}}" class="img-fluid wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;" alt="" />
-						
+              	    	<div class="col-xl-6 col-lg-6 col-md-5 col-12">
+					    	<img src="{{asset('assets/front/images/Group 2369.png')}}" class="img-fluid wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;" alt="" />
 						</div>
 						
-						<div class="col-lg-1 col-md-6"></div>
-						<div class="col-lg-5 col-md-6">
+						<div class="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+						<div class="col-xl-5 col-lg-5 col-md-6 col-12">
 							<div class="slider_text5">
 									<h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">Multiple payment systems</h3>
 									<div class="line wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;"></div>
@@ -356,8 +296,6 @@
 									<div class="type"></div>
 							</div>
 						</div>
-					
-						
 					</div>
 				</div>
 </section>
@@ -366,7 +304,7 @@
                 <div class="container">
 					<div class="row align-items-center">
 					
-					<div class="col-lg-5 col-md-6">
+					<div class="col-xl-5 col-lg-5 col-md-6 col-12">
 							<div class="slider_text6">
 									<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInLeft;">Marketing</h3>
 									<div class="line wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;"></div>
@@ -375,8 +313,8 @@
 									<div class="type"></div>
 							</div>
 						</div>
-						<div class="col-lg-1 col-md-6"></div>
-						<div class="col-lg-6 col-md-6">
+						<div class="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+						<div class="col-xl-6 col-lg-6 col-md-5 col-12">
 						<img src="{{asset('assets/front/images/Group 3576.png')}}" class="img-fluid wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;" alt="" />
 						
 						</div>
@@ -389,13 +327,13 @@
 <section class="eight">
                 <div class="container">
 					<div class="row align-items-center">
-              		<div class="col-lg-6 col-md-6">
+              		<div class="col-xl-6 col-lg-6 col-md-5 col-12">
 						<img src="{{asset('assets/front/images/Group 2247.png')}}" class="img-fluid wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;" alt="" />
 						
 						</div>
 						
-						<div class="col-lg-1 col-md-6"></div>
-						<div class="col-lg-5 col-md-6">
+						<div class="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+						<div class="col-xl-5 col-lg-5 col-md-6 col-12">
 							<div class="slider_text7">
 									<h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">Ongoing training and support</h3>
 									<div class="line wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;"></div>
@@ -413,8 +351,7 @@
 <section class="nine">
                 <div class="container">
 					<div class="row align-items-center">
-					
-					<div class="col-lg-5 col-md-6">
+					<div class="col-xl-5 col-lg-5 col-md-6 col-12">
 							<div class="slider_text8">
 									<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInLeft;">Advertising and design management</h3>
 									<div class="line wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;"></div>
@@ -423,8 +360,8 @@
 									<div class="type"></div>
 							</div>
 						</div>
-						<div class="col-lg-1 col-md-6"></div>
-						<div class="col-lg-6 col-md-6">
+						<div class="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+						<div class="col-xl-6 col-lg-6 col-md-5 col-12">
 						<img src="{{asset('assets/front/images/Group 2319.png')}}" class="img-fluid wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;" alt="" />
 						
 						</div>
@@ -437,13 +374,13 @@
 <section class="ten">
                 <div class="container">
 					<div class="row align-items-center">
-              		<div class="col-lg-6 col-md-6">
+              		<div class="col-xl-6 col-lg-6 col-md-5 col-12">
 						<img src="{{asset('assets/front/images/Group 2371.png')}}" class="img-fluid wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;" alt="" />
 						
 						</div>
 						
-						<div class="col-lg-1 col-md-6"></div>
-						<div class="col-lg-5 col-md-6">
+						<div class="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+						<div class="col-xl-5 col-lg-5 col-md-6 col-12">
 							<div class="slider_text9">
 									<h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">perfume design</h3>
 									<div class="line wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInRight;"></div>
@@ -468,11 +405,11 @@
 				</h1>
 				<h5><span><i class="fas fa-info-circle"></i></span>The number is limited and preference is determined by region, capital and experience</h5>
 				<div class="row">
-					<div class="col-7">
+					<div class="col-xl-7 col-lg-7 col-md-7 col-12">
 				<form action="/action_page.php">
       
 					<div class="row">
-					<div class="col-6">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-12">
 						<input type="text" id="email" name="email" placeholder="email" spellcheck="false" data-ms-editor="true">
 						<input type="text" id="fname" name="firstname" placeholder="name" spellcheck="false" data-ms-editor="true">
 						<div class="telphone">
@@ -486,7 +423,7 @@
 						</div>
 					</div>
 
-					<div class="col-6">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-12">
 					
 						<input type="text" id="adr" name="address" placeholder="address" spellcheck="false" data-ms-editor="true">
 						<input type="text" id="The_required_number" name="The_required_number" placeholder="The required number" spellcheck="false" data-ms-editor="true">            
@@ -499,7 +436,7 @@
 				
                 </form>
 				</div>
-				<div class="col-5">
+				<div class="col-xl-5 col-lg-5 col-md-5 col-12">
 					<p>
 					This text is an example of text that can be replaced in the same space.This text is an example of text that can be replaced in the same space.This text is an example of text that can be replaced in the same space.This text is an example of text that can be replaced in the same space.This text is an example of text that can be replaced in the same space.This text is an example of text that can be replaced in the same space.
 					</p>

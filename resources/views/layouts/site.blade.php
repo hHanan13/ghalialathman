@@ -28,13 +28,13 @@
 			<!--/nav-->
 				<div class="container serarc-fluid">
                     <div class="row">
-                        <div class="col-xl-2 col-lg-2 col-md-3 col-6">
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-7">
                             <a class="navbar-brand" href="#index.html">
                                 <img src="{{asset('assets/front/images/logoblack.png')}}" alt="Your logo" title="Your logo" style="height:150px;" />
                             </a> 
                         </div>
 				
-                        <div class="col-xl-5 col-lg-5 col-md-5 col-5 d-flex align-items-center" id="">
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-5 align-items-center" id="center_navbar">
                             <ul class="navbar-nav ml-auto">
                               <li class="nav-item">
                               <img src="{{asset('assets/front/images/icon/Group 3579.png')}}" class="img-fluid" alt="" />
@@ -54,9 +54,8 @@
                                 <a class="nav-link" href="contact.html">cart</a>
                               </li> -->
                             </ul>
-
 				               	</div>
-                         <div class="search-right col-xl-1 col-lg-1 col-md-1 col-7">
+                         <div class="search-right col-xl-1 col-lg-1 col-md-1 col-1">
 
                               <a href="#search" title="search"><i class="fas fa-search"></i></a>
                               <!-- search popup -->
@@ -75,7 +74,7 @@
                             <!-- /search popup -->
                         </div>
 					
-                      <ul class="top-hnt-right-content col-xl-2 col-lg-2 col-md-2 col-7">
+                      <ul class="top-hnt-right-content col-xl-2 col-lg-2 col-md-2 col-3">
                         <li class="button-log usernhy">
                           <a class="btn-open" href="#">
                             <span class="far fa-heart" aria-hidden="true"></span>
@@ -100,7 +99,7 @@
                         
                       </ul>
 					<!--//right-->
-				           	<div class="col-xl-2 col-lg-2 col-md-2 col-4 d-flex justify-content-end align-items-center">
+				           	<div class="col-xl-2 col-lg-2 col-md-2 col-1 d-flex justify-content-end align-items-center">
                         <button type="button" class="hamburger animated fadeInLeft " onclick="openNav()" data-toggle="offcanvas">
                                         
                         </button>
@@ -226,242 +225,11 @@
 <script src="{{asset('assets/front/js/jquery-2.1.4.min.js')}}"></script>
 <script src="{{asset('assets/front/js/jquery-3.3.1.min.js')}}"></script>
 
-<!--/login-->
-<script>
-		$(document).ready(function () {
-			$(".button-log a").click(function () {
-				$(".overlay-login").fadeToggle(200);
-				$(this).toggleClass('btn-open').toggleClass('btn-close');
-			});
-		});
-		$('.overlay-close1').on('click', function () {
-			$(".overlay-login").fadeToggle(200);
-			$(".button-log a").toggleClass('btn-open').toggleClass('btn-close');
-			open = false;
-		});
-  </script>
-<!--//login-->
-   <script>
-    // optional
-		$('#customerhnyCarousel').carousel({
-				interval: 5000
-    });
-  </script>
-  <script>
-	  $(document).ready(function()
-		{
-		if($('.bbb_viewed_slider').length)
-		{
-		var viewedSlider = $('.bbb_viewed_slider');
-
-		viewedSlider.owlCarousel(
-		{
-		loop:true,
-		margin:30,
-		autoplay:true,
-		autoplayTimeout:6000,
-		nav:false,
-		dots:false,
-		responsive:
-		{
-		0:{items:1},
-		575:{items:2},
-		768:{items:3},
-		991:{items:4},
-		1199:{items:4}
-		}
-		});
-
-		if($('.bbb_viewed_prev').length)
-		{
-		var prev = $('.bbb_viewed_prev');
-		prev.on('click', function()
-		{
-		viewedSlider.trigger('prev.owl.carousel');
-		});
-		}
-
-		if($('.bbb_viewed_next').length)
-		{
-		var next = $('.bbb_viewed_next');
-		next.on('click', function()
-		{
-		viewedSlider.trigger('next.owl.carousel');
-		});
-		}
-		}
-		});
-  </script>
-  <!-- french_slider -->
-<script>
-	$(document).ready(function()
-  {
-  if($('.bbb_viewed_slider1').length)
-  {
-  var viewedSlider1 = $('.bbb_viewed_slider1');
-
-  viewedSlider1.owlCarousel(
-  {
-  loop:true,
-  margin:30,
-  autoplay:true,
-  autoplayTimeout:6000,
-  nav:true,
-  dots:false,
-  navText : ["<i class='icofont-scroll-left'></i>","<i class='icofont-scroll-right'></i>"],
-  responsive:
-  {
-  0:{items:1},
-  575:{items:2},
-  768:{items:3},
-  991:{items:4},
-  1199:{items:4}
-  }
-  });
-  
-  }
-  });
-
-</script>
-<!-- niche_slider -->
-<script>
-	$(document).ready(function()
-  {
-  if($('.bbb_viewed_slider2').length)
-  {
-  var viewedSlider2 = $('.bbb_viewed_slider2');
-
-  viewedSlider2.owlCarousel(
-  {
-  loop:true,
-  margin:30,
-  autoplay:true,
-  autoplayTimeout:6000,
-  nav:true,
-  dots:false,
-  navText : ["<i class='icofont-scroll-left'></i>","<i class='icofont-scroll-right'></i>"],
-  responsive:
-  {
-  0:{items:1},
-  575:{items:2},
-  768:{items:3},
-  991:{items:4},
-  1199:{items:4}
-  }
-  });
-  
-  }
-  });
-
-</script>
-
-<!-- packages_slider -->
-<script>
-	$(document).ready(function()
-  {
-  if($('.bbb_viewed_slider3').length)
-  {
-  var viewedSlider3 = $('.bbb_viewed_slider3');
-
-  viewedSlider3.owlCarousel(
-  {
-  loop:true,
-  margin:30,
-  autoplay:true,
-  autoplayTimeout:6000,
-  nav:false,
-  dots:false,
-  navText : ["<i class='icofont-scroll-left'></i>","<i class='icofont-scroll-right'></i>"],
-  responsive:
-  {
-  0:{items:1},
-  575:{items:2},
-  768:{items:2},
-  991:{items:2},
-  1199:{items:2}
-  }
-  });
-  }
-  });
-
-</script>
-
-<!-- recommendation -->
-<script>
-	$(document).ready(function()
-  {
-  if($('.bbb_viewed_slider4').length)
-  {
-  var viewedSlider4 = $('.bbb_viewed_slider4');
-
-  viewedSlider4.owlCarousel(
-  {
-  loop:true,
-  margin:30,
-  autoplay:true,
-  autoplayTimeout:6000,
-  nav:true,
-  dots:false,
-  navText : ["<i class='icofont-scroll-left'></i>","<i class='icofont-scroll-right'></i>"],
-  responsive:
-  {
-  0:{items:1},
-  575:{items:2},
-  768:{items:3},
-  991:{items:4},
-  1199:{items:4}
-  }
-  });
-  }
-  });
-
-</script>
  <!-- cart-js -->
  <script src="{{asset('assets/front/js/minicart.js')}}"></script>
- <script>
-     transmitv.render();
 
-     transmitv.cart.on('transmitv_checkout', function (evt) {
-         var items, len, i;
-
-         if (this.subtotal() > 0) {
-             items = this.items();
-
-             for (i = 0, len = items.length; i < len; i++) {}
-         }
-     });
- </script>
- <!-- //cart-js -->
 <!--pop-up-box-->
 <script src="{{asset('assets/front/js/jquery.magnific-popup.js')}}"></script>
-<!--//pop-up-box-->
-<script>
-  $(document).ready(function () {
-    $('.popup-with-zoom-anim').magnificPopup({
-      type: 'inline',
-      fixedContentPos: false,
-      fixedBgPos: true,
-      overflowY: 'auto',
-      closeBtnInside: true,
-      preloader: false,
-      midClick: true,
-      removalDelay: 300,
-      mainClass: 'my-mfp-zoom-in'
-    });
-
-  });
-</script>
-<!--//search-bar-->
-<!-- disable body scroll which navbar is in active -->
-
-<script>
-  $(function () {
-    $('.navbar-toggler').click(function () {
-      $('body').toggleClass('noscroll');
-    })
-  });
-</script>
-<!-- menu -->
 
 <script src="{{asset('assets/front/js/owlcarousel2.2.1.js')}}"></script>
 <script src="{{asset('assets/front/js/wow.min.js')}}"></script>
@@ -470,34 +238,10 @@
 <script src="{{asset('assets/front/js/fontawesome.min.js')}}"></script>
 <script src="{{asset('assets/front/js/popper1.16.min.js')}}"></script>
 
-    <script>
-              new WOW().init();
-     </script>
-
 <script src="{{asset('assets/front/js/bootstrap.min.js')}}"></script>
-<script>
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
 
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
-</script>
-<script>
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();   
-});
-</script>
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "230px";
-}
+<script src="{{asset('assets/front/js/main.js')}}"></script>
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
 </body>
 </html>
 

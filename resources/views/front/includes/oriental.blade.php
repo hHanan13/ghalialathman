@@ -292,9 +292,6 @@
 					</ul>
 				</div>
 			</div>
-			<a class="navbar-brand logo" href="#index.html">
-								<img src="{{asset('assets/front/images/logo-4.png')}}" alt="Your logo" title="Your logo" style="height:130px;" />
-							</a> 
 			<!--//nav-->
 		</header>
             <div class="bannerhny-content">

@@ -10,11 +10,11 @@
 				</div>
 				<div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 p-lg-5 py-md-0 py-3">
 					<div class="row">
-							<div class="news offset-xl-1 offset-md-1 col-xl-3 col-lg-12 col-md-5 col-xs-12">
+							<div class="news col-xl-12 col-lg-12 col-md-12 col-xs-12">
 								<h3>Please write your e-mail to receive all new</h3>
 							</div>
 
-							<form action="#" method="post" class="signin-form col-xl-8 col-lg-12 col-md-6 col-xs-12">
+							<form action="#" method="post" class="signin-form offset-xl-4 col-xl-7 offset-lg-4 col-lg-7 offset-md-3 col-md-9 col-12">
 								<div class="forms-gds">
 									<div class="form-input">
 										<input type="email" name="" placeholder="Your email here" required="">

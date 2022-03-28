@@ -47,6 +47,10 @@ Route::group (
         return view('layouts.education');
     })->name('education'); 
 
+    Route::get('/cart', function () {
+        return view('layouts.cart');
+    })->name('cart'); 
+
 
     Auth::routes();
     Route::get('/home', 'HomeController@index')->name('home');

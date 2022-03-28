@@ -26,7 +26,7 @@
 		<header class="tophny-header">
 			
 			<!--/nav-->
-				<div class="container serarc-fluid">
+				<div class="container ">
                     <div class="row">
                         <div class="col-xl-2 col-lg-2 col-md-3 col-7">
                             <a class="navbar-brand" href="#index.html">

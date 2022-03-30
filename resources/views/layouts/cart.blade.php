@@ -162,7 +162,7 @@
 		<div class="content-baner-inf">
              <div class="container">
                    <div class="row">
-                           <div class="shopping-cart col-lg-9">
+                           <div class="shopping-cart col-lg-8">
 
                             <div class="column-labels">
                                     <label class="product-removal"></label>
@@ -180,14 +180,18 @@
                                         </button>
                                     </div>
                                     <div class="product-image">
-                                     <img src="{{asset('assets/front/images/logoblack.png')}}" alt="Your logo" title="Your logo" style="height:140px;" />
+                                     <img src="{{asset('assets/front/images/workshop.png')}}" alt="" title=""  />
                                     </div>
                                     <div class="product-details">
                                         <div class="product-title">Dingo Dog Bones</div>
                                     </div>
-                                    <div class="product-price">12.99</div>
+                                    <div class="product-price">12.99 SAR</div>
                                     <div class="product-quantity">
-                                        <input type="number" value="2" min="1">
+                                    <div class="counter">
+																	<span class="down" onClick='decreaseCount(event, this)'>-</span>
+																	<input type="text" value="1">
+																	<span class="up"  onClick='increaseCount(event, this)'>+</span>
+																</div>
                                     </div>
                                     
                                     <div class="product-line-price">25.98</div>
@@ -200,74 +204,66 @@
                                         </button>
                                     </div>
                                     <div class="product-image">
-                                        <img src="https://s.cdpn.io/3/large-NutroNaturalChoiceAdultLambMealandRiceDryDogFood.png">
+                                    <img src="{{asset('assets/front/images/workshop.png')}}" alt="" title=""  />
                                     </div>
                                     <div class="product-details">
                                         <div class="product-title">Nutro™ Adult Lamb and Rice Dog Food</div>
                                     </div>
-                                    <div class="product-price">45.99</div>
+                                    <div class="product-price">45.99 SAR</div>
                                     <div class="product-quantity">
-                                        <input type="number" value="1" min="1">
-                                    </div>
+                                    <div class="counter">
+																	<span class="down" onClick='decreaseCount(event, this)'>-</span>
+																	<input type="text" value="1">
+																	<span class="up"  onClick='increaseCount(event, this)'>+</span>
+																</div>                                    </div>
                                    
                                     <div class="product-line-price">45.99</div>
                             </div>
-
-                            <div class="totals">
-                                    <div class="totals-item">
-                                        <label>Subtotal</label>
-                                        <div class="totals-value" id="cart-subtotal">71.97</div>
-                                    </div>
-                                    <div class="totals-item">
-                                        <label>Tax (5%)</label>
-                                        <div class="totals-value" id="cart-tax">3.60</div>
-                                    </div>
-                                    <div class="totals-item">
-                                        <label>Shipping</label>
-                                        <div class="totals-value" id="cart-shipping">15.00</div>
-                                    </div>
-                                    <div class="totals-item totals-item-total">
-                                        <label>Grand Total</label>
-                                        <div class="totals-value" id="cart-total">90.57</div>
-                                    </div>
-                            </div>
                                 
-                                <button class="checkout">Checkout</button>
                            </div>
+                           <div class="col-lg-1"></div>
                            <div class="col-lg-3">
-                                    <div class="card mb-3">
-                                        <div class="card-body">
-                                            <form>
-                                                <div class="form-group"> <label>Have coupon?</label>
-                                                    <div class="input-group"> <input type="text" class="form-control coupon" name="" placeholder="Coupon code"> <span class="input-group-append"> <button class="btn btn-primary btn-apply coupon">Apply</button> </span> </div>
+                               <div class="row">
+                                    <div class="cart_shop col-lg-12">
+                                                <div class="totals">
+                                                        <div class="totals-item">
+                                                            <h4>Cart Total</h4>
+                                                            <label>Subtotal</label>
+                                                            <div class="totals-value" id="cart-subtotal">71.97</div>
+                                                        </div>
+                                                        <div class="totals-item">
+                                                            <h5>Enter your address to view shipping options</h5>
+                                                            <label><u>Shipping cost calculation</u></label>
+                                                        </div>
+                                                        
+                                                        <div class="totals-item totals-item-total">
+                                                            <label>Total</label>
+                                                            <div class="totals-value" id="cart-total">90.57</div>
+                                                        </div>
                                                 </div>
-                                            </form>
+                                            
                                         </div>
+                                    <button class="checkout col-lg-12">Checkout</button>
+
+                                    <div class="card1 col-lg-12 mt-3">
+                                                        <div class="card-body">
+                                                            <form>
+                                                                <div class="form-group"> <label>discount coupon</label>
+                                                                    <div class="input-group"> <input type="text" class="form-control coupon" name="" placeholder="Apply the discount coupon here"> <span class="input-group-append"> <button class="btn btn-primary btn-apply coupon">Apply</button> </span> </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <dl class="dlist-align">
-                                                <dt>Total price:</dt>
-                                                <dd class="text-right ml-3">$69.97</dd>
-                                            </dl>
-                                            <dl class="dlist-align">
-                                                <dt>Discount:</dt>
-                                                <dd class="text-right text-danger ml-3">- $10.00</dd>
-                                            </dl>
-                                            <dl class="dlist-align">
-                                                <dt>Total:</dt>
-                                                <dd class="text-right text-dark b ml-3"><strong>$59.97</strong></dd>
-                                            </dl>
-                                            <hr> <a href="#" class="btn btn-out btn-primary btn-square btn-main" data-abc="true"> Make Purchase </a> <a href="#" class="btn btn-out btn-success btn-square btn-main mt-2" data-abc="true">Continue Shopping</a>
-                                        </div>
-                                    </div>
-                </div>
+                                </div>
+                          </div>
+
              </div>
                 
         </div>
 	</div>
 
 </section>
+@include('front.includes.footer')
 
 	  <script src="{{asset('assets/front/js/jquery-2.1.4.min.js')}}"></script>
 

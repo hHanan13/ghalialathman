@@ -7,7 +7,6 @@
                       <a class="logo-footer" href="/">
                       <img src="{{asset('assets/front/images/logo-4.png')}}" alt="Your logo" title="Your logo" style="height:150px;" />
                       </a>
-                          
                   </div>
                     
                     <div class="sub-columns col-lg-9 pl-lg-5">
